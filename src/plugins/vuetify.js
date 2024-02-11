@@ -7,18 +7,17 @@
 // Styles
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
-import { md3 } from 'vuetify/blueprints'
+import { md2 } from 'vuetify/blueprints'
 
 // Composables
 import { createVuetify } from 'vuetify'
 
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 
-// import { md3 } from 'vuetify/blueprints'
 import colors from 'vuetify/util/colors'
 
 export default createVuetify({
-  blueprint: md3,
+  blueprint: md2,
   theme: {
     defaultTheme: 'dark'
   }
