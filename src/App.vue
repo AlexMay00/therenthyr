@@ -78,7 +78,7 @@
 
               <div class="pa-2">
                 <v-chip-group column>
-                  <v-chip size="x-small"
+                  <v-chip size="small"
                     v-for="tag in n.raw.tags"
                     :key="tag"
                   >
@@ -237,7 +237,7 @@
           title: 'Cursed Weapon',
           subtitle: '+2 to hit, -2 to your soul',
           avatar: '../cursed.webp',
-          text: 'IT IS I, SKRTTATTEN OF THE UNDEREARTH. YOU YOU WIELD ME AND ALL WILL SUFFER.',
+          text: 'IT IS I, SKRTTATTEN OF THE UNDEREARTH. YOU WILL WIELD ME AND ALL WILL SUFFER.',
           info: 'WISDOM SAVING THROW!\nHA YOU HAVE FAILED\nYOU CANNOT RESIST SKRTTATTEN',
           tags: ['Cursed', 'Weapon', 'Item', 'Yikes'],
           icon: 'mdi-sword-cross',
