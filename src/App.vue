@@ -20,12 +20,11 @@
         <v-text-field v-model="search" clearable hide-details persistent-clear label="Search for anything" prepend-inner-icon="mdi-magnify" variant="solo-filled"></v-text-field>
         
 
-        <v-row justify="space-around">
-          <v-col cols="auto">
-            <v-sheet
-              elevation="100"
-            >
+        <v-row>
+          <v-col>
+            <v-sheet>
               <v-chip-group
+              column
               variant="text"
                 mandatory
                 selected-class="text-primary"
@@ -42,7 +41,7 @@
         </v-row>
         
         <v-data-iterator
-      :items="currentOption === 'all' ? nouns : nouns.filter(noun => noun.icon === currentOption)"
+      :items="currentOption === 'all' ? nouns : nouns.filter(noun => noun.type === currentOption || noun.subtype == currentOption)"
       :items-per-page="2400"
       :search="search"
     >
@@ -87,18 +86,30 @@
                 </v-chip-group>
               </div>
             <v-spacer></v-spacer>
-              <v-dialog v-if="n.raw.info" max-width="1000">
+              <v-dialog v-if="n.raw.info || n.raw.associations" max-width="1000">
                 <template v-slot:activator="{ props }">
                   <v-btn v-bind="props" text="More Info"> </v-btn>
                 </template>
                 <template v-slot:default="{ isActive }">
                   <v-card :title="n.raw.title">
-                    <v-card-text style="white-space: pre-wrap;">
+                    
+                    <v-card-text style="white-space: pre-wrap; text-align: justify;">
+                      <v-avatar style="float: left; margin: 10px;" size="180" rounded :image="n.raw.avatar"></v-avatar>
                       {{ n.raw.info }}
                     </v-card-text>
                     <v-card-actions>
+
+                        <v-chip-group show-arrows>
+                          <v-chip size="small"
+                            v-for="tag in !n.raw.associations ? n.raw.tags : n.raw.tags.concat(n.raw.associations)"
+                            :key="tag"
+                          >
+                            {{ tag }}
+                          </v-chip>
+                        </v-chip-group>
+
                       <v-spacer></v-spacer>
-                      <v-btn
+                      <v-btn icon="mdi-close" justify="end"
                         text="Close"
                         @click="isActive.value = false"
                       ></v-btn>
@@ -140,15 +151,39 @@
         },
         {
           title: 'Characters',
-          value: 'mdi-account',
+          value: 'character',
+        },
+        {
+          title: 'PCs',
+          value: 'pc',
+        },
+        {
+          title: 'NPCs',
+          value: 'npc',
         },
         {
           title: 'Locations',
-          value: 'mdi-earth',
+          value: 'location',
+        },
+        {
+          title: 'Nations',
+          value: 'nation',
+        },
+        {
+          title: 'Cities',
+          value: 'city',
+        },
+        {
+          title: 'Towns',
+          value: 'town',
         },
         {
           title: 'Items',
-          value: 'mdi-sword-cross',
+          value: 'item',
+        },
+        {
+          title: 'Weapons',
+          value: 'weapon',
         },
       ],
       search: '',
@@ -160,7 +195,10 @@
           text: 'David Nornackle is a goliath barbarian who hails from Burrowburgh, a small village outside of Alpharen in the Land of the Small. Dave was adopted by two gnomes, Pabavyc and Lorininn Nornackle, when he was a baby - a \"huge fuckin\' baby\" as a family friend once eloquently stated.',
           info: 'Here is a bunch of info about Big Dave. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis in est quis rutrum. Etiam malesuada porttitor malesuada. Cras lacinia sem vel leo interdum, in porta velit molestie. Praesent sit amet sodales elit, et consequat ante. Nunc at tincidunt velit. Nullam egestas, libero ut accumsan vulputate, erat est hendrerit erat, sed consequat tortor nibh gravida mauris. Sed elit lacus, euismod vel porttitor ac, maximus ac enim. Vestibulum vehicula tristique lacus, ultricies ornare lectus hendrerit ut. Etiam mollis dapibus sagittis. Aliquam sed est vel justo volutpat porttitor sodales nec turpis. Praesent volutpat neque eu sapien faucibus iaculis. Mauris in dolor eget mauris luctus iaculis. Vivamus convallis diam vitae sapien lacinia rhoncus. Praesent enim diam, feugiat vitae ullamcorper eget, commodo eget urna. Proin ut tempus felis. Phasellus quis velit vitae lacus tristique scelerisque. Quisque interdum sem ligula, ut sodales ipsum hendrerit sit amet. Sed malesuada hendrerit ultrices. Ut blandit justo ut justo ullamcorper, id molestie tellus tincidunt. Integer elit lacus, congue id varius sit amet, congue in dolor. Duis aliquet tellus in enim iaculis, ut condimentum erat semper. In ut justo vitae risus facilisis posuere id ut elit. Phasellus eu venenatis ex. Mauris non elementum purus, vitae vulputate velit. Praesent varius tristique orci lobortis auctor. Aliquam tristique pellentesque tempor. Sed lacinia enim ligula, at laoreet risus consectetur nec. Integer eleifend ultrices tellus, ac pretium arcu placerat id. Phasellus dictum augue non nunc condimentum scelerisque. Pellentesque eget arcu id ligula iaculis dignissim. Nam eros mi, interdum imperdiet ultricies vel, fermentum sed lacus. Fusce fermentum tempus ante, vitae tempus tellus pulvinar vel. Quisque venenatis scelerisque neque in volutpat. Maecenas at luctus sapien. Vestibulum suscipit feugiat gravida. Pellentesque egestas egestas risus ac interdum. Fusce non vulputate dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec hendrerit enim, in commodo erat. Vivamus in fringilla felis, eget viverra sapien. Fusce eget gravida dolor. Nullam sed ligula felis. Nulla a ultricies nisi. Praesent ex ex, cursus ac sollicitudin commodo, dignissim ut justo.',
           tags: ['PC', 'Barbarian', 'Goliath', 'Land of the Small', 'Burrowburgh'],
+          associations: ['Almiraj', 'Pabavyc Nornackle', 'Lorininn Nornackle', 'Sunbeam Wonderbite', 'Timber Wonderbite'],
           icon: 'mdi-account',
+          type: 'character',
+          subtype: 'pc',
           order: 10
         },
         {
@@ -170,7 +208,10 @@
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
           info: 'Chipp is a Monk. Chipp the Monk. Chipp-monk. Chipmunk. Get it? Get it?!',
           tags: ['PC', 'Aasimar', 'Monk', 'Student'],
+          associations: ['Almiraj'],
           icon: 'mdi-account',
+          type: 'character',
+          subtype: 'pc',
           order: 20
         },
         {
@@ -180,7 +221,10 @@
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit fermentum mi, nec pellentesque sapien commodo ut. Vestibulum dolor nisi, vestibulum id tellus id, rutrum lobortis eros. In maximus purus nunc, in ullamcorper tortor facilisis vel.',
           info: 'Dahlen\'s got some Murkey-ass wood!',
           tags: ['PC', 'Half Elf', 'Warlock', 'Student'],
+          associations: ['Almiraj'],
           icon: 'mdi-account',
+          type: 'character',
+          subtype: 'pc',
           order: 30
         },
         {
@@ -190,7 +234,10 @@
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
           info: 'Dashiel is dashing.',
           tags: ['PC', 'Human', 'Bard', 'Student'],
+          associations: ['Almiraj'],
           icon: 'mdi-account',
+          type: 'character',
+          subtype: 'pc',
           order: 40
         },
         {
@@ -200,7 +247,10 @@
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
           info: 'I know nothing! \n     - Michael Scott',
           tags: ['PC', 'Satyr', 'Cleric', 'Student'],
+          associations: ['Almiraj'],
           icon: 'mdi-account',
+          type: 'character',
+          subtype: 'pc',
           order: 50
         },
         {
@@ -210,7 +260,10 @@
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
           info: 'Is it Lowenoch with and L or Iowenoch with an I',
           tags: ['PC', 'Fairy', 'Fighter', 'Land of the Small', 'Student'],
+          associations: ['Almiraj'],
           icon: 'mdi-account',
+          type: 'character',
+          subtype: 'pc',
           order: 60
         },
         {
@@ -220,7 +273,10 @@
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
           info: 'I\'m pretty sure this city is loosely named after Alphari Drenn, a toddler wizard we once killed people with.',
           tags: ['Land of the Small', 'City', 'Gnome', 'Halfling', 'Fairy'],
-          icon: 'mdi-earth',
+          associations: ['Burrowburgh'],
+          icon: 'mdi-city',
+          type: 'location',
+          subtype: 'city',
           order: 70
         },
         {
@@ -230,7 +286,23 @@
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
           info: '\nALL THE \n\nSMALL THINGS',
           tags: ['Nation', 'Gnome', 'Halfling', 'Fairy'],
+          associations: ['Burrowburgh', 'Alpharen', 'Dave Nornackle', 'Selmenoch Lowenoch', 'Sunbeam Wonderbite', 'Timber Wonderbite', 'n\'Rob', 'Pabavyc Nornackle', 'Lorininn Nornackle'],
           icon: 'mdi-earth',
+          type: 'location',
+          subtype: 'nation',
+          order: 80
+        },
+        {
+          title: 'Burrowburgh',
+          subtitle: 'Town near Alpharen - Land of the Small',
+          avatar: '../alpha-b.svg',
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
+          info: '\nALL THE \n\nSMALL THINGS',
+          tags: ['Nation', 'Gnome', 'Halfling', 'Fairy'],
+          associations: ['Dave Nornackle', 'Pabavyc Nornackle', 'Lorininn Nornackle', 'Sunbeam Wonderbite', 'Timber Wonderbite'],
+          icon: 'mdi-home-city',
+          type: 'location',
+          subtype: 'town',
           order: 80
         },
         {
@@ -239,9 +311,38 @@
           avatar: '../cursed.webp',
           text: 'IT IS I, SKRTTATTEN OF THE UNDEREARTH. YOU WILL WIELD ME AND ALL WILL SUFFER.',
           info: 'WISDOM SAVING THROW!\nHA YOU HAVE FAILED\nYOU CANNOT RESIST SKRTTATTEN',
-          tags: ['Cursed', 'Weapon', 'Item', 'Yikes'],
+          tags: ['Cursed', 'Weapon', 'Item', 'Magic', 'Yikes'],
+          associations: ['Slashing Damage', 'Fire Damage'],
           icon: 'mdi-sword-cross',
+          type: 'item',
+          subtype: 'weapon',
           order: 90
+        },
+        {
+          title: 'Sunbeam Wonderbite',
+          subtitle: 'Fairy Cleric, Burrowburgh',
+          avatar: '../sunbeam.png',
+          text: 'Sunbeam is the best friend of Dave Nornackle and the daughter of Timber Wonderbite. One of her wings is significantly smaller than the other, making it difficult for her to fly. She was recruited by Almiraj for her healing prowess.',
+          info: '',
+          tags: ['NPC', 'Fairy', 'Cleric', 'Burrowburgh'],
+          associations: ['Almiraj','Timber Wonderbite', 'Dave Nornackle', 'Land of the Small'],
+          icon: 'mdi-account-outline',
+          type: 'character',
+          subtype: 'npc',
+          order: 100
+        },
+        {
+          title: 'Timber Wonderbite',
+          subtitle: 'Fairy, Burrowburgh',
+          avatar: '../carl.png',
+          text: 'Timber Wonderbite is a crude speaking, greasy, grumpy, slightly-drunk-all-the-time fairy. He is the father of Sunbeam Wonderbite and a family friend of the Nronackle\'s.',
+          info: '',
+          tags: ['NPC', 'Fairy', 'Burrowburgh'],
+          associations: ['Sunbeam Wonderbite', 'Dave Nornackle', 'Land of the Small', 'Pabavyc Nornackle', 'Lorininn Nornackle'],
+          icon: 'mdi-account-outline',
+          type: 'character',
+          subtype: 'npc',
+          order: 100
         },
       ].sort(function(a, b){return b.order - a.order})
     }),
