@@ -93,7 +93,7 @@
                 <template v-slot:default="{ isActive }">
                   <v-card :title="n.raw.title">
                     
-                    <v-card-text style="white-space: pre-wrap; text-align: justify;">
+                    <v-card-text style="white-space: pre-wrap; text-align: left;">
                       <v-avatar style="float: left; margin: 10px;" size="180" rounded :image="n.raw.avatar"></v-avatar>
                       {{ n.raw.info }}
                     </v-card-text>
