@@ -10,8 +10,7 @@
       <v-card :title="n.raw.title">
 
         <v-card-text style="white-space: pre-wrap; text-align: left;">
-          <v-avatar style="float: left; margin: 10px;" size="180" rounded :image="n.raw.avatar"></v-avatar>
-          {{n.raw.info}}
+          <v-avatar style="float: left; margin: 10px;" size="180" rounded :image="n.raw.avatar"></v-avatar>{{n.raw.info}}
         </v-card-text>
 
         <v-card-actions>
