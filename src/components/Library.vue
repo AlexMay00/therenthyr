@@ -1,54 +1,28 @@
 <template>
-  <v-app id="almiraj">
-    <v-app-bar image="@/assets/banner.jpg" absolute>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-app-bar-title class="text-h4 font-weight-black ">A.S.A.A.</v-app-bar-title>
-    </v-app-bar>
-
-    <v-main>
-      <v-navigation-drawer width="120" v-model="drawer" location="left" temporary absolute>
-        <v-list @click.stop="drawer = !drawer" :items="pages" @click:select="pageChanged($event)">
-        </v-list>
-        <v-img src="../public/almiraj.png" class="bunny" position="bottom" rounded></v-img>
-      </v-navigation-drawer>
-
-      <v-container v-show="this.currentPage === 'library'" v-bind:id="this.currentPage">
-        <Library></Library>
-      </v-container>
-
-      <v-container v-show="this.currentPage === 'recap'" v-bind:id="this.currentPage">
-        <Recap></Recap>
-      </v-container>
-
-      <v-container v-show="this.currentPage === 'timeline'" v-bind:id="this.currentPage">
-        <CampaignTimeline></CampaignTimeline>
-      </v-container>
-
-    </v-main>
-  </v-app>
+  <v-text-field v-model="search" clearable hide-details persistent-clear label="Search for anything" prepend-inner-icon="mdi-magnify" variant="solo-filled">
+  </v-text-field>
+  <Filter @optionChanged="optionChanged($event)">
+  </Filter>
+  <v-data-iterator
+    :items="currentOption === 'all' ? nouns : nouns.filter(noun => noun.type === currentOption || noun.subtype == currentOption)"
+    :items-per-page="2400"
+    :search="search"
+  >
+    <template v-slot:default="{ items }">
+      <v-row>
+        <v-col v-for="n in items" :key="n" xs="12" sm="12" md="6">
+          <Card :item="n">
+          </Card>
+        </v-col>
+      </v-row>
+    </template>
+  </v-data-iterator>
 </template>
 
 <script>
   export default {
     data: () => ({
-      currentPage: 'library',
       currentOption: 'all',
-      drawer: false,
-      group: null,
-      pages: [
-        {
-          title: 'Library',
-          value: 'library',
-        },
-        {
-          title: 'Timeline',
-          value: 'timeline',
-        },
-        {
-          title: 'Recap',
-          value: 'recap',
-        }
-      ],
       search: '',
       nouns: [
         {
@@ -213,23 +187,7 @@
     methods: {
       optionChanged (option) {
         this.currentOption = option
-      },
-      pageChanged(pageEvent){
-        this.currentPage = pageEvent.id
-        console.log(this.currentPage)
       }
-    },
-
-    watch: {
-      group () {
-        this.drawer = false
-      },
-    },
   }
-</script>
-
-<style scoped>
-.bunny {
- position: unset;
 }
-</style>
+</script>
