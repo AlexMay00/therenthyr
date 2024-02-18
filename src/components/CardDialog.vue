@@ -9,6 +9,11 @@
 
       <v-card :title="n.raw.title">
 
+        <template v-slot:append>
+          <audio v-if="n.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload" :src="n.raw.voice"></audio>
+          <v-icon :icon="n.raw.icon"></v-icon>
+        </template>
+
         <v-card-text style="white-space: pre-wrap; text-align: left;">
           <v-avatar style="float: left; margin: 10px;" size="180" rounded :image="n.raw.avatar"></v-avatar>{{n.raw.info}}
         </v-card-text>
@@ -35,3 +40,11 @@
     },
   }
 </script>
+
+<style scoped>
+audio {
+  animation: audioWidth 0.1s forwards;
+  height: 30px;
+  margin-right: 15px;
+}
+</style>
