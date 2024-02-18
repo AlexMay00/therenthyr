@@ -7,12 +7,9 @@
 
     <template v-slot:default="{ isActive }">
 
-      <v-card :title="n.raw.title">
-
-        <template v-slot:append>
-          <audio v-if="n.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload" :src="n.raw.voice"></audio>
-          <v-icon :icon="n.raw.icon"></v-icon>
-        </template>
+      <v-card :title="n.raw.title" :append-icon="n.raw.icon">
+      
+        <v-card-subtitle><audio v-if="n.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" :src="n.raw.voice"></audio></v-card-subtitle>
 
         <v-card-text style="white-space: pre-wrap; text-align: left;">
           <v-avatar style="float: left; margin: 10px;" size="180" rounded :image="n.raw.avatar"></v-avatar>{{n.raw.info}}
