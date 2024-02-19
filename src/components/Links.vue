@@ -14,7 +14,7 @@
         >
           <a style="text-decoration: none; color: inherit;" :href="n.raw.link" target="_blank" rel="noopener noreferrer">
             <v-list-item-title>{{ n.raw.title }}</v-list-item-title>
-            <v-list-item-subtitle>{{ n.raw.description }}</v-list-item-subtitle>
+            <v-list-item-subtitle style="word-break: break-word;">{{ n.raw.description }}</v-list-item-subtitle>
           </a>
         </v-list-item>
       </v-list>
