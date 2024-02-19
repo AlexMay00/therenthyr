@@ -9,7 +9,7 @@
       <v-navigation-drawer width="120" v-model="drawer" location="left" temporary absolute>
         <v-list @click.stop="drawer = !drawer" :items="pages" @click:select="pageChanged($event)">
         </v-list>
-        <v-img src="../public/almiraj.png" class="bunny" position="bottom" rounded></v-img>
+        <v-img src="/almiraj.png" class="bunny" position="bottom" rounded></v-img>
       </v-navigation-drawer>
 
       <v-container v-show="this.currentPage === 'library'" v-bind:id="this.currentPage">
@@ -22,6 +22,10 @@
 
       <v-container v-show="this.currentPage === 'timeline'" v-bind:id="this.currentPage">
         <CampaignTimeline></CampaignTimeline>
+      </v-container>
+
+      <v-container v-show="this.currentPage === 'links'" v-bind:id="this.currentPage">
+        <Links></Links>
       </v-container>
 
     </v-main>
@@ -47,6 +51,10 @@
         {
           title: 'Recap',
           value: 'recap',
+        },
+        {
+          title: 'Links',
+          value: 'links',
         }
       ],
       search: '',
@@ -216,7 +224,6 @@
       },
       pageChanged(pageEvent){
         this.currentPage = pageEvent.id
-        console.log(this.currentPage)
       }
     },
 

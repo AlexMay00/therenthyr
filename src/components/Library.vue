@@ -11,8 +11,8 @@
     <template v-slot:default="{ items }">
       <v-row>
         <v-col v-for="n in items" :key="n" xs="12" sm="12" md="6">
-          <Card :item="n">
-          </Card>
+          <NounCard :item="n">
+          </NounCard>
         </v-col>
       </v-row>
     </template>

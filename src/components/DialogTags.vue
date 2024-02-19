@@ -1,6 +1,6 @@
 <template>
- <v-chip-group show-arrows>
-    <v-chip size="small"
+  <v-chip-group show-arrows>
+    <v-chip
       v-for="tag in tags"
       :key="tag"
     >

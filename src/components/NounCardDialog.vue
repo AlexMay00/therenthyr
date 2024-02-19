@@ -18,7 +18,7 @@
         <v-card-actions>
           <DialogTags :tags="!n.raw.associations ? n.raw.tags : n.raw.tags.concat(n.raw.associations)"></DialogTags>
           <v-spacer></v-spacer>
-          <v-btn icon="mdi-close" justify="end"
+          <v-btn icon="mdi-close" justify="end bottom"
             text="Close"
             @click="isActive.value = false"
           ></v-btn>

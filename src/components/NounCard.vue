@@ -10,11 +10,11 @@
       </v-textarea>
     </v-card-text>
 
-    <audio v-if="item.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" :src="item.raw.voice"></audio>
   <v-card-actions>
-    <DialogTags :tags="item.raw.tags"></DialogTags>
+    <audio v-if="item.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" :src="item.raw.voice"></audio>
+    <NounCardTags v-if="!item.raw.voice" :tags="item.raw.tags"></NounCardTags>
     <v-spacer></v-spacer>
-    <CardDialog :n="item"></CardDialog>
+    <NounCardDialog :n="item"></NounCardDialog>
   </v-card-actions>
   </v-card>
 </template>
@@ -29,8 +29,6 @@
 
 <style scoped>
 audio {
-  height: 30px;
-  animation: audioWidth 0.1s forwards;
-  margin-left: 15px
+  max-height: 42px;
 }
 </style>
