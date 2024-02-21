@@ -56,6 +56,13 @@
           description: 'A folder in Mitch\'s google drive that will be updated with documents for us.',
           link: 'https://drive.google.com/drive/folders/1zBtaMlRt0xF3Bp8JDAJr6Ye12_jaqoyf',
         },
+        {
+          icon:'mdi-note-edit',
+          color: 'pink-accent-4',
+          title: 'Shared Notes',
+          description: 'A folder in Felicity\'s google drive with notes from the campaign.',
+          link: 'https://docs.google.com/document/d/1KomxGQp62DW_bXIB5Xhaaechwkv0JcPD2Q_KfxB6jLs/edit',
+        },        
       ].sort(function(a, b){return a.title - b.title}),
     })
   }
