@@ -183,6 +183,20 @@
           subtype: 'npc',
           order: 100
         },
+        {
+          title: 'Cosmo',
+          subtitle: 'Selmenoch\'s Mount',
+          avatar: '../cosmo.png',
+          text: 'Arf arf',
+          info: 'Bark.',
+          tags: ['NPC', 'Mount', 'Selmenoch Lowenoch', 'Dog'],
+          associations: ['Faewild'],
+          voice: null,
+          icon: 'mdi-dog-side',
+          type: 'character',
+          subtype: 'npc',
+          order: 110
+        },
       ].sort(function(a, b){return b.order - a.order})
     }),
 

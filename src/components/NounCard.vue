@@ -4,6 +4,7 @@
     :prepend-avatar="item.raw.avatar"
     :title="item.raw.title"
     :subtitle="item.raw.subtitle"
+    :append-icon="item.raw.icon"
   >
     <v-card-text>
       <v-textarea :model-value="item.raw.text" no-resize readonly flat hide-details variant="plain" rows="4">
