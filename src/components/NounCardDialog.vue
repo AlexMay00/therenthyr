@@ -2,7 +2,7 @@
   <v-dialog v-if="n.raw.info || n.raw.associations" max-width="1000">
 
     <template v-slot:activator="{ props }">
-      <v-btn v-bind="props" text="More Info"> </v-btn>
+      <v-btn v-bind="props" text="More Info"></v-btn>
     </template>
 
     <template v-slot:default="{ isActive }">
@@ -12,7 +12,9 @@
         <v-card-subtitle><audio v-if="n.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" :src="n.raw.voice"></audio></v-card-subtitle>
 
         <v-card-text style="white-space: pre-wrap; text-align: left;">
-          <v-avatar style="float: left; margin: 10px;" size="180" rounded :image="n.raw.avatar"></v-avatar>{{n.raw.info}}
+          <!-- <v-avatar style="float: left; margin-right: 10px;" :size="mdAndUp ? '180' : '100'" rounded :image="n.raw.avatar"></v-avatar> -->
+          <AvatarDialog :n="n"></AvatarDialog>
+          {{n.raw.info}}
         </v-card-text>
 
         <v-card-actions>
@@ -45,3 +47,10 @@ audio {
   margin-right: 15px;
 }
 </style>
+
+<script setup>
+  import { useDisplay } from 'vuetify'
+
+  // Destructure only the keys you want to use
+  const { smAndDown, mdAndUp } = useDisplay()
+</script>
