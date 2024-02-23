@@ -12,7 +12,6 @@
         <v-card-subtitle><audio v-if="n.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" :src="n.raw.voice"></audio></v-card-subtitle>
 
         <v-card-text style="white-space: pre-wrap; text-align: left;">
-          <!-- <v-avatar style="float: left; margin-right: 10px;" :size="mdAndUp ? '180' : '100'" rounded :image="n.raw.avatar"></v-avatar> -->
           <AvatarDialog :n="n"></AvatarDialog>
           {{n.raw.info}}
         </v-card-text>

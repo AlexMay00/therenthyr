@@ -14,9 +14,8 @@
   </v-card-item>
     
     <v-card-text>
-      <!-- <a href=""><v-avatar v-if="mdAndUp" rounded size="150" style="float: left; margin-right: 10px; margin-top: 20px;" :image="item.raw.avatar"></v-avatar></a> -->
       <AvatarDialog v-if="mdAndUp" :n="item"></AvatarDialog>
-      <v-textarea v-if="item.raw.text || mdAndUp" :model-value="item.raw.text" no-resize readonly flat hide-details variant="plain" :rows="mdAndUp ? 6 : 4">
+      <v-textarea v-if="item.raw.text || mdAndUp" :model-value="item.raw.text" no-resize readonly flat hide-details variant="plain" :rows="mdAndUp ? 5 : 4">
       </v-textarea>
     </v-card-text>
 
