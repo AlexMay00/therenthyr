@@ -2,7 +2,7 @@
   <v-card class="mx-auto" min-width="260" :density="mdAndUp ? 'default' : 'compact'">
   <v-card-item>
     <v-card-title>
-      <v-avatar v-if="smAndDown" size="75" style="float: left; margin-right: 10px;" :image="item.raw.avatar"></v-avatar>
+      <AvatarDialog v-if="smAndDown" :n="item"></AvatarDialog>
       {{ item.raw.title }}
       <v-icon :icon="item.raw.icon" style="float: right;">
       </v-icon>
@@ -14,7 +14,8 @@
   </v-card-item>
     
     <v-card-text>
-      <v-avatar v-if="mdAndUp" rounded size="150" style="float: left; margin-right: 10px; margin-top: 20px;" :image="item.raw.avatar"></v-avatar>
+      <!-- <a href=""><v-avatar v-if="mdAndUp" rounded size="150" style="float: left; margin-right: 10px; margin-top: 20px;" :image="item.raw.avatar"></v-avatar></a> -->
+      <AvatarDialog v-if="mdAndUp" :n="item"></AvatarDialog>
       <v-textarea v-if="item.raw.text || mdAndUp" :model-value="item.raw.text" no-resize readonly flat hide-details variant="plain" :rows="mdAndUp ? 6 : 4">
       </v-textarea>
     </v-card-text>
