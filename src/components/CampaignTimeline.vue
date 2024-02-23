@@ -52,8 +52,8 @@
         {
           color: 'blue',
           year: '45000',
-          headline: 'The Six Dungeons',
-          text: 'Energy begins to seep from the earth and the six dungeons of Manta are discovered, one by one. Again making this up so the page looks cool. Help me out, Mitch!',
+          headline: 'The Five Dungeons',
+          text: 'Energy begins to seep from the earth and the five dungeons of Manta are discovered, one by one. Again making this up so the page looks cool. Help me out, Mitch!',
           icon: 'mdi-castle'
         },
         {

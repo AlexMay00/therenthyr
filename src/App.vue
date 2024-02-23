@@ -53,12 +53,12 @@
           value: '/library',
         },
         {
-          title: 'Timeline',
-          value: '/timeline',
-        },
-        {
           title: 'Recap',
           value: '/recap',
+        },
+        {
+          title: 'Timeline',
+          value: '/timeline',
         },
         {
           title: 'Links',
