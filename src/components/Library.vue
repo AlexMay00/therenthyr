@@ -42,7 +42,7 @@
         {
           title: 'Chipp  Dawnglow',
           subtitle: 'Aasimar Monk, Isla Relampalgo',
-          avatar: 'https://www.dndbeyond.com/avatars/17/965/636378921768973657.jpeg',
+          avatar: '../chipp.jpeg',
           text: 'A lightly tan skinned Aasimar with three pairs of seraphim-like wings.',
           info: 'Chipp received her scarab when she sneezed real hard.',
           tags: ['PC', 'Aasimar', 'Monk', 'Student', 'Ruby Basilisk'],
@@ -55,7 +55,7 @@
         {
           title: 'Dahlen Mirkwood',
           subtitle: 'Half Elf Warlock, Aplace',
-          avatar: 'https://www.dndbeyond.com/avatars/39554/94/1581111423-117538070.jpeg',
+          avatar: '../dahlen.jpeg',
           text: 'A 16 year old boy with shiny dark brown hair, bright green eyes, pointy ears, and somewhat elven features. Wearing a kind-of-too-big ruby fancy shirt that looks borrowed. Always carrying books.',
           info: 'Dahlen is a shy fellow, but deeply curious about his surroundings. He has largely existed in the shadow of his (pureblood) elven grandfather, who raised him. Dahlen is not very well traveled, and has never left the comfort of his home-forest prior to this adventure. He received his scarab when he found a thing and accidentally killed a guy. I wasn\'t supposed to say that.\n\n"Elmon delmon. Teamwork makes the dream work!"',
           tags: ['PC', 'Half Elf', 'Warlock', 'Student', 'Ruby Basilisk'],
@@ -68,7 +68,7 @@
         {
           title: 'Dashiel Graves',
           subtitle: 'Variant Human Bard, Areatown',
-          avatar: 'https://www.dndbeyond.com/avatars/39576/330/1581111423-117534960.jpeg',
+          avatar: '../dashiel.jpeg',
           text: 'With a jaw approved by the CW, Dashiel is as handsome as they come. Brown hair, brown eyes, paler skin with a slight tan, 6\'4" tall, lean, swimmers build. Dashiel is wearing a dark gray tunic, a red scarf, and drapery around his waist.',
           info: 'Dashiel received his scarab after completing an amazing performance.',
           tags: ['PC', 'Human', 'Bard', 'Student', 'Ruby Basilisk'],
@@ -81,7 +81,7 @@
         {
           title: 'Sefy Hart',
           subtitle: 'Satyr Cleric, Origincity',
-          avatar: 'https://www.dndbeyond.com/avatars/39697/438/1581111423-117973322.jpeg',
+          avatar: '../sefy.jpeg',
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus purus nunc, in ullamcorper tortor facilisis vel. Quisque eu mauris non.',
           info: 'I know nothing! \n     - Michael Scott',
           tags: ['PC', 'Satyr', 'Cleric', 'Student', 'Ruby Basilisk'],
@@ -94,7 +94,7 @@
         {
           title: 'Selmenoch Lowenoch',
           subtitle: 'Fairy Fighter, Feywild',
-          avatar: 'https://www.dndbeyond.com/avatars/20552/265/637680873200277276.jpeg',
+          avatar: '../sel.jpeg',
           text: 'A small fairy who very recently arrived from the Feywild.',
           info: 'Roughly 3 feet tall, 30-35 lbs, with 90s JRPG spiky red hair. Wearing chainmail and donning a shield. Selmenoch dresses primarily in autumn colors like gold, brass, and orange with purple accents. His shield is decorated with a paw, crossed with a lance. He rides atop a larger than average corgi named Cosmo.\n\nSelmenoch is a well trained dragoon who served in the first battalion calvary under the leadership of Lady Ophelia Cogwin. He was part of the Corgi Battalion!',
           tags: ['PC', 'Fairy', 'Fighter', 'Feywild', 'Student', 'Ruby Basilisk'],
