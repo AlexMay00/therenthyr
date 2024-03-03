@@ -33,7 +33,7 @@
           info: 'Dave received his scarab for saving his village from a giant toad attack.',
           tags: ['PC', 'Barbarian', 'Goliath', 'Burrowburgh', 'Ruby Basilisk', 'Student'],
           associations: ['Almiraj', 'Pabavyc Nornackle', 'Lorininn Nornackle', 'Sunbeam Wonderbite', 'Timber Wonderbite', 'Land of the Small'],
-          voice: '../dave.m4a',
+          voice: '../dave.mp3',
           icon: 'mdi-account',
           type: 'character',
           subtype: 'pc',
@@ -120,7 +120,7 @@
         {
           title: 'Land of the Small',
           subtitle: 'Western Coast',
-          avatar: '../los.png',
+          avatar: '../los.jpg',
           text: 'A west-coast nation consisting of mostly small-statured races such as Gnomes, Halflings, Fairies, and Grung.',
           info: 'Also known as the Small-Lands, The Land of the Small is a region that used to be a giant forest but over the years has been cut back into Groves as more and more towns and cities grew inside it. They are home to gnomes and halflings mostly but grung and fairy both also live within the safety of the woods. The small lands have no Overarching ruler, each city takes care of itself. Because of this quite a few land disputes break out and the cities are constantly fighting small skirmishes for expansion.',
           tags: ['Nation', 'Gnome', 'Halfling', 'Fairy'],
@@ -133,7 +133,7 @@
         {
           title: 'Burrowburgh',
           subtitle: 'Town near Alpharen - Land of the Small',
-          avatar: '../burrowburgh.png',
+          avatar: '../burrowburgh.jpg',
           text: 'Dave\'s hometown. Once attacked by a giant toad. Population mostly consists of halflings, gnomes, fairies, and grung.',
           info: null,
           tags: ['Town', 'Gnome', 'Halfling', 'Fairy'],
@@ -146,7 +146,7 @@
         {
           title: 'Cursed Weapon',
           subtitle: '+2 to hit, -2 to your soul',
-          avatar: '../cursed.webp',
+          avatar: '../cursed.jpg',
           text: 'IT IS I, SKRTTATTEN OF THE UNDEREARTH. YOU WILL WIELD ME AND ALL WILL SUFFER.',
           info: 'WISDOM SAVING THROW!\nHA YOU HAVE FAILED\nYOU CANNOT RESIST SKRTTATTEN',
           tags: ['Cursed', 'Weapon', 'Item', 'Magic', 'Yikes'],
@@ -159,7 +159,7 @@
         {
           title: 'Sunbeam Wonderbite',
           subtitle: 'Fairy Cleric, Burrowburgh',
-          avatar: '../sunbeam.png',
+          avatar: '../sunbeam.jpg',
           text: 'Sunbeam is the best friend of Dave Nornackle and the daughter of Timber Wonderbite. One of her wings is significantly smaller than the other, making it difficult for her to fly. She was recruited by Almiraj for her healing prowess.',
           info: '',
           tags: ['NPC', 'Fairy', 'Cleric', 'Burrowburgh', 'Ruby Basilisk'],
@@ -172,7 +172,7 @@
         {
           title: 'Timber Wonderbite',
           subtitle: 'Fairy, Burrowburgh',
-          avatar: '../carl.png',
+          avatar: '../carl.jpg',
           text: 'Timber Wonderbite is a crude speaking, greasy, grumpy, slightly-drunk-all-the-time fairy. He is the father of Sunbeam Wonderbite and a family friend of the Nornackle\'s.',
           info: '\"Holy shit, that\'s a huge fuckin\' baby!\"',
           tags: ['NPC', 'Fairy', 'Burrowburgh'],
@@ -186,7 +186,7 @@
         {
           title: 'The Radiant Lands',
           subtitle: 'Eastern, Isla Relampalgo',
-          avatar: '../radiant.png',
+          avatar: '../radiant.jpg',
           text: 'The northern nation of the Isla Relampalgo, located on the far east of the continent.',
           info: null,
           tags: ['Nation', 'Aasimir'],
@@ -199,7 +199,7 @@
         {
           title: 'Cosmo',
           subtitle: 'Corgi',
-          avatar: '../cosmo.png',
+          avatar: '../cosmo.jpg',
           text: 'Selmenoch\'s Corgi mount. A fierce warrior in the Feywild, and Sel\'s most trusted confidant. Known to bite a finger off here or there, especially if approached too quickly.',
           info: 'Bark.',
           tags: ['PC', 'Mount', 'Selmenoch Lowenoch', 'Dog'],
@@ -227,7 +227,7 @@
         {
           title: 'Pepper',
           subtitle: 'Earth Genasi',
-          avatar: '../pepper.png',
+          avatar: '../pepper.jpg',
           text: 'An employee aboard the Darning Needle, and assistant to the train\'s owner, Mr. Toggins.',
           info: 'Pepper has strong, almost masculine features. Her skin is a pale gray, with a stone-like edifice to it containing sparkly freckles. Her uniform consists of a blue/gray pair of slacks, a white ruffled shirt, and a jacket that matches her pants. Dark charcoal hair pulled back into a bun of thick dreadlocks.',
           tags: ['NPC', 'Earth Genasi', 'Darning Needle'],
@@ -241,7 +241,7 @@
         {
           title: 'Slake Toggins',
           subtitle: 'Verdan',
-          avatar: '../toggins.png',
+          avatar: '../toggins.jpg',
           text: 'Owner of the Darning Needle, and an Almiraj alumni. Mr. Toggins was a Ruby Basilisk in his adventuring days, and now gives free rides to freshmen.',
           info: "BASILISKS!!!",
           tags: ['NPC', 'Earth Genasi', 'Darning Needle'],
@@ -255,7 +255,7 @@
         {
           title: 'Grandpa Mirkwood',
           subtitle: 'Elf, Dahlen\'s Grandpa',
-          avatar: '../grandpa.png',
+          avatar: '../grandpa.jpg',
           text: 'Grandfather of Dahlen Mirkwood. Proud (by extension) of Dahlen for becoming a Ruby Basilisk, just as he had been. Seems to resent Dahlen for only being a half elf.',
           info: '"I find the lack of trees...     upsetting."',
           tags: ['NPC', 'Elf', 'Dahlen Mirkwood','Boomer'],
@@ -269,7 +269,7 @@
         {
           title: 'Bumper Nosedust',
           subtitle: 'Human, "Bartender"',
-          avatar: '../bumpy.png',
+          avatar: '../bumpy.jpg',
           text: 'The animated, over the top mixologist working in the bar car of the Darning Needle. Slicked back hair, wearing a blue/gray uniform.',
           info: '"What can I get ya, boy?"',
           tags: ['NPC', 'Darning Needle', 'Bartender'],
@@ -283,7 +283,7 @@
         {
           title: 'Bird Cage Lady',
           subtitle: '???, Dahlen\'s Patron',
-          avatar: '../patron.png',
+          avatar: '../patron.jpg',
           text: 'Summoned Dahlen and 19 others to a shared dream where she said "You\'ve all earned a fraction of my power, I\'m looking for 5 that deserve all of my power. Be bold mortals. Be adventurous, be ruthless. I\'ll be watching. You don\'t want to be one of the losers."',
           info: '"Don\'t be boring."',
           tags: ['NPC', 'Dahlen Mirkwood', 'Patron'],
@@ -297,7 +297,7 @@
         {
           title: 'Aaron',
           subtitle: 'Elf, Fighter',
-          avatar: '../aaron.png',
+          avatar: '../aaron.jpg',
           text: 'Shy elf fighter we met on the train. Wearing oversized chain mail with a sword and board.',
           info: 'Aaron received his scarab after his aunt FORCED HIM TO DESTROY A BRONZE DUNGEON CRYSTAL BY HIMSELF.\n\nAaron is from The Prime Island, which is on the southwest of the continent.\n\nAaron\'s aunt teaches offensive magic at Almiraj.',
           tags: ['NPC', 'Student', 'Ruby Basilisk'],
@@ -311,7 +311,7 @@
         {
           title: 'Apple',
           subtitle: 'Kobold, Wizard',
-          avatar: '../apple-min.png',
+          avatar: '../apple-min.jpg',
           text: 'A small, talkative kobold we met on the train ride to Almiraj. She quickly became good friends with Sunbeam.',
           info: null,
           tags: ['NPC', 'Student', 'Ruby Basilisk'],
@@ -325,7 +325,7 @@
         {
           title: 'Topin',
           subtitle: 'Dragonborn, Monk',
-          avatar: '../topin-min.png',
+          avatar: '../topin-min.jpg',
           text: 'A very large dragonborn with black scales we met on the train ride to Almiraj.',
           info: 'Topin was sad when Dave said that Dahlen was his biggest friend.',
           tags: ['NPC', 'Student', 'Ruby Basilisk'],
@@ -339,7 +339,7 @@
         {
           title: 'Redd',
           subtitle: 'Dwarf, Fighter',
-          avatar: '../redd-min.png',
+          avatar: '../redd-min.jpg',
           text: 'Redd is a dwarven fighter we met on the train headed to Almiraj. He seems dumb.',
           info: null,
           tags: ['NPC', 'Student', 'Ruby Basilisk'],

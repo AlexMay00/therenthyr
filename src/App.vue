@@ -11,7 +11,7 @@
       <v-navigation-drawer width="200" v-model="drawer" location="left" temporary absolute>
         <v-list @click.stop="drawer = !drawer" :items="pages" @click:select="pageChanged($event)">
         </v-list>
-          <v-img class="bunny" v-show="bunny" src="/almiraj.png"  position="bottom" rounded></v-img>
+          <v-img class="bunny" v-show="bunny" src="/almiraj.jpg"  position="bottom" rounded></v-img>
       </v-navigation-drawer>
 
       <v-container v-show="this.currentPage === '/library' || this.currentPage === '/'" v-bind:id="this.currentPage">
