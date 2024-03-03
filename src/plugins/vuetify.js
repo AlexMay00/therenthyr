@@ -5,7 +5,7 @@
  */
 
 // Styles
-import '@mdi/font/css/materialdesignicons.css'
+//import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
 import { md2 } from 'vuetify/blueprints'
 
