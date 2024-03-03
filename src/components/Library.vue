@@ -5,14 +5,20 @@
   </Filter>
   <v-data-iterator
     :items="currentOption === 'all' ? nouns : nouns.filter(noun => noun.type === currentOption || noun.subtype == currentOption)"
-    :items-per-page="2400"
+    :items-per-page="-1"
     :search="search"
   >
     <template v-slot:default="{ items }">
       <v-row>
         <v-col v-for="n in items" :key="n" xs="12" sm="12" md="6">
-          <NounCard :item="n">
-          </NounCard>
+          <v-lazy
+            :min-height="100"
+            :options="{'threshold':0.5}"
+            transition="fade-transition"
+          >
+            <NounCard :item="n">
+            </NounCard>
+          </v-lazy>
         </v-col>
       </v-row>
     </template>
