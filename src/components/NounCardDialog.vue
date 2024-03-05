@@ -9,7 +9,7 @@
 
       <v-card :title="n.raw.title" :append-icon="n.raw.icon">
       
-        <v-card-subtitle><audio v-if="n.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" :src="n.raw.voice"></audio></v-card-subtitle>
+        <v-card-subtitle><audio v-if="n.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" preload="none" :src="n.raw.voice"></audio></v-card-subtitle>
 
         <v-card-text style="white-space: pre-wrap; text-align: left;">
           <AvatarDialog :n="n"></AvatarDialog>{{n.raw.info}}
