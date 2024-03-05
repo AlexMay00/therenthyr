@@ -20,7 +20,7 @@
     </v-card-text>
 
   <v-card-actions>
-    <audio v-if="item.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" preload="none" :src="item.raw.voice"></audio>
+    <audio id="audio" v-if="item.raw.voice" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" preload="none" :src="item.raw.voice" onplay="focus()" ></audio>
     <NounCardTags v-if="!item.raw.voice" :tags="item.raw.tags"></NounCardTags>
     <v-spacer></v-spacer>
     <NounCardDialog v-if="item.raw.info" :n="item"></NounCardDialog>
@@ -32,7 +32,7 @@
   export default {
     props: {
       item: null
-    },
+    }
   }
 </script>
 

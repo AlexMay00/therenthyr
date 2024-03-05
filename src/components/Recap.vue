@@ -24,7 +24,7 @@
             </v-card-title>
             <v-card-subtitle v-if="smAndDown">{{ event.raw.year }}</v-card-subtitle>
             <v-card-text style="white-space: pre-wrap;">{{ event.raw.text }}</v-card-text>
-            <audio v-if="event.raw.audio" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" preload="none" :src="event.raw.audio"></audio>
+            <audio v-if="event.raw.audio" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" preload="none" :src="event.raw.audio" onplay="focus()"></audio>
           </v-card>
         </v-timeline-item>
       </v-timeline>
