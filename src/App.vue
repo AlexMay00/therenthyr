@@ -2,7 +2,7 @@
   <v-app id="almiraj">
     <v-app-bar image="@/assets/banner.jpg" absolute>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-app-bar-title class="text-h5 font-weight-black ">A.S.A.A.</v-app-bar-title>
+      <v-app-bar-title class="text-h5 font-weight-black" autofocus>A.S.A.A.</v-app-bar-title>
       <v-spacer></v-spacer>
       <div id="imACuteLilBunny" class="bunny-pen" @mouseover="bunny = true" @mouseleave="bunny = false"></div>
     </v-app-bar>
