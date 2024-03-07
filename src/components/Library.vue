@@ -212,7 +212,8 @@
           tags: ['PC', 'Mount', 'Selmenoch Lowenoch', 'Dog'],
           associations: ['Feywild'],
           voice: null,
-          icon: 'mdi-dog-side',
+          //icon: 'mdi-dog-side',
+          icon: 'mdi-skull-crossbones',
           type: 'character',
           subtype: 'pc',
           order: 140
@@ -260,7 +261,7 @@
           order: 170
         },
         {
-          title: 'Grandpa Mirkwood',
+          title: 'Nelaryen Mirkwood',
           subtitle: 'Elf, Dahlen\'s Grandpa',
           avatar: '../grandpa.jpg',
           text: 'Grandfather of Dahlen Mirkwood. Proud (by extension) of Dahlen for becoming a Ruby Basilisk, just as he had been. Seems to resent Dahlen for only being a half elf.',
