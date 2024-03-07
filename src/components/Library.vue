@@ -11,14 +11,8 @@
     <template v-slot:default="{ items }">
       <v-row>
         <v-col v-for="n in items" :key="n" xs="12" sm="12" md="6">
-          <v-lazy
-            :min-height="100"
-            :options="{'threshold':0.5}"
-            transition="fade-transition"
-          >
-            <NounCard :item="n">
-            </NounCard>
-          </v-lazy>
+          <NounCard :item="n">
+          </NounCard>
         </v-col>
       </v-row>
     </template>
