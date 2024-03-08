@@ -23,7 +23,9 @@
               {{ event.raw.headline }}
             </v-card-title>
             <v-card-subtitle v-if="smAndDown">{{ event.raw.year }}</v-card-subtitle>
-            <v-card-text style="white-space: pre-wrap;">{{ event.raw.text }}</v-card-text>
+            <v-card-text style="white-space: pre-wrap;">
+              <AvatarDialog v-if="event.raw.avatar" :n="event"></AvatarDialog>{{ event.raw.text }}
+            </v-card-text>
             <audio v-if="event.raw.audio" oncontextmenu="return false;" controls controlslist="nodownload noplaybackrate" preload="none" :src="event.raw.audio" onplay="focus()"></audio>
           </v-card>
         </v-timeline-item>
@@ -41,8 +43,9 @@
           color: 'white',
           year: 'Jan 24, 2024',
           headline: 'Session -1',
-          text: 'Mitch busted out his huge-ass map and we asked him questions about his 2+ year, 500+ city world. We love Mitch.',
-          icon: 'mdi-map-search-outline'
+          text: 'Mitch busted out his huge-ass map and we asked him questions about his 2+ year, 500+ city world.\n\n\n\n\nWe love Mitch.',
+          icon: 'mdi-map-search-outline',
+          avatar: '../session-1.jpg'
         },
         {
           color: 'green',
@@ -63,8 +66,9 @@
           color: 'indigo',
           year: 'Mar 6, 2024',
           headline: 'Session 2',
-          text: 'Sleepy Sefy awoke to a chipper Chipp hovering over her and was soon introduced to Dashiel over waffles. Dave, Dahlen, and Lowenoch made their way to the bar cart for some morning Malort. Aura-stunning arrows rained down on the Darning Needle as a strange man with a black & white checkered cape and a 20ft extendable wand summoned an army of cartoon-like chicken mounted bunnies. The party managed to defend the sleeping occupants and kill most of the bunnies, however, a few were missed in the chaos. The owlen guard was killed in the cargo train and several crates of pharmaceutical-grade potions were stolen. Perhaps worst of all, Cosmo was slain in battle. The students spend the next hour cleaning and getting their story straight as they wait for the adults to wake up.',
-          icon: 'mdi-rabbit'
+          text: 'Sleepy Sefy awoke to a chipper Chipp hovering over her and was soon introduced to Dashiel over waffles. Dave, Dahlen, and Selmenoch made their way to the bar cart for some morning Malort.\n\nAura-stunning arrows rained down on the Darning Needle as a strange man with a black & white checkered cape and a 20ft extendable wand summoned an army of cartoon-like chicken mounted bunnies. The party managed to defend the sleeping occupants and kill most of the bunnies, however, a few were missed in the chaos. The owlen guard was killed in the cargo train and several crates of pharmaceutical-grade potions were stolen.\n\nPerhaps worst of all, Cosmo was slain in battle.\n\nThe students spend the next hour cleaning up the mess, healing the wounded, and getting their story straight as they wait for the adults to wake up.',
+          icon: 'mdi-rabbit',
+          avatar: '../dead-cosmo.jpg'
         },
         {
           color: 'red',
@@ -79,7 +83,8 @@
 </script>
 
 <script setup>
-  import { useDisplay } from 'vuetify'
+import { useDisplay } from 'vuetify'
+import AvatarDialog from './AvatarDialog.vue';
 
   // Destructure only the keys you want to use
   const { smAndDown, mdAndUp } = useDisplay()

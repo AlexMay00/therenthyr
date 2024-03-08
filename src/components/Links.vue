@@ -40,14 +40,14 @@
           color: 'blue-accent-2',
           title: 'Manta - Borders',
           description: 'A high-res map of Manta with borders highlighted in different colors',
-          link: 'https://cdn.discordapp.com/attachments/1200034736270213120/1200149858569433179/Manta_Countries_Map-1.jpg?ex=65e0d127&is=65ce5c27&hm=521dc71c23428eb40826192c08855200781eb072e6e5c073b1bb771c59239b44&',
+          link: 'https://drive.google.com/uc?export=view&id=1uzDpzCaYSoIlLDjxzqUrpZ_ThFsGMA7y',
         },
         {
           icon:'mdi-map-search-outline',
-          color: 'brown-darken-1',
+          color: 'brown-lighten-1',
           title: 'Manta - Topographical',
           description: 'A high-res map of Manta that shows the topography of the land.',
-          link: 'https://cdn.discordapp.com/attachments/1200034736270213120/1200149976286769193/Manta_With_Railroads.jpg?ex=65e0d144&is=65ce5c44&hm=5a770a657c94f3d9bd5534c2fdaaddafe62c77855b68c43c77d10063a07bfac6&',
+          link: 'https://drive.google.com/uc?export=view&id=1dKvyqe9qhKv0VG2Qt0ZbsQQQfC8uSg6e',
         },
         {
           icon:'mdi-google-drive',
