@@ -1,6 +1,6 @@
 <template>
   <v-app id="almiraj">
-    <v-app-bar image="@/assets/banner.jpg" absolute>
+    <v-app-bar image="/banner.jpg" absolute>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-app-bar-title class="text-h5 font-weight-black">A.S.A.A.</v-app-bar-title>
       <v-spacer></v-spacer>
