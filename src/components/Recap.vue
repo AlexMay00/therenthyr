@@ -63,7 +63,14 @@
           color: 'indigo',
           year: 'Mar 6, 2024',
           headline: 'Session 2',
-          text: 'The train is on its way to Almiraj. We need to pick a team name!',
+          text: 'Sleepy Sefy awoke to a chipper Chipp hovering over her and was soon introduced to Dashiel over waffles. Dave, Dahlen, and Lowenoch made their way to the bar cart for some morning Malort. Aura-stunning arrows rained down on the Darning Needle as a strange man with a black & white checkered cape and a 20ft extendable wand summoned an army of cartoon-like chicken mounted bunnies. The party managed to defend the sleeping occupants and kill most of the bunnies, however, a few were missed in the chaos. The owlen guard was killed in the cargo train and several crates of pharmaceutical-grade potions were stolen. Perhaps worst of all, Cosmo was slain in battle. The students spend the next hour cleaning and getting their story straight as they wait for the adults to wake up.',
+          icon: 'mdi-rabbit'
+        },
+        {
+          color: 'red',
+          year: 'Mar 20, 2024',
+          headline: 'Session 3',
+          text: 'The Teenage Magic Nimble Troopers (patent pending) lick their wounds and wait for the adults to wake up to see how much trouble they\'re in.',
           icon: 'mdi-dice-d20'
         },
       ].reverse(),
