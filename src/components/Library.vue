@@ -387,9 +387,9 @@
           info: null,
           tags: ['Nation', 'Gnome', 'Satyr', 'Trueheart Forest'],
           associations: ['Sefy Hart'],
-          icon: 'mdi-earth',
+          icon: 'mdi-home-city',
           type: 'location',
-          subtype: 'nation',
+          subtype: 'town',
           order: 270
         },
         {
