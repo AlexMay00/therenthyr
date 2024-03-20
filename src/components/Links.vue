@@ -3,6 +3,7 @@
   </v-text-field>
   <v-data-iterator
   :items="events"
+  :items-per-page="-1"
   :search="search"
   >
     <template v-slot:default="{ items }">
@@ -44,14 +45,14 @@
         },
         {
           icon:'mdi-map-search-outline',
-          color: 'brown-lighten-1',
+          color: 'brown',
           title: 'Manta - Topographical',
           description: 'A high-res map of Manta that shows the topography of the land.',
           link: 'https://drive.google.com/uc?export=view&id=1dKvyqe9qhKv0VG2Qt0ZbsQQQfC8uSg6e',
         },
         {
           icon:'mdi-google-drive',
-          color: 'green-darken-2',
+          color: 'green-darken-1',
           title: 'Shared Google Drive',
           description: 'A folder in Mitch\'s google drive that will be updated with documents for us.',
           link: 'https://drive.google.com/drive/folders/1zBtaMlRt0xF3Bp8JDAJr6Ye12_jaqoyf',
@@ -62,7 +63,14 @@
           title: 'Shared Notes',
           description: 'A folder in Felicity\'s google drive with notes from the campaign.',
           link: 'https://docs.google.com/document/d/1KomxGQp62DW_bXIB5Xhaaechwkv0JcPD2Q_KfxB6jLs/edit',
-        },        
+        },
+        {
+          icon:'mdi-code-json',
+          color: 'light-green-accent-3',
+          title: 'Github Repository',
+          description: 'The code that makes this site exist. Want to contribute? Let me know!',
+          link: 'https://github.com/AlexMay00/almiraj-vuetify',
+        },       
       ].sort(function(a, b){return a.title - b.title}),
     })
   }
