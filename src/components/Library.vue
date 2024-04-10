@@ -206,8 +206,7 @@
           tags: ['PC', 'Mount', 'Selmenoch Lowenoch', 'Dog'],
           associations: ['Feywild'],
           voice: null,
-          //icon: 'mdi-dog-side',
-          icon: 'mdi-skull-crossbones',
+          icon: 'mdi-dog-side',
           type: 'character',
           subtype: 'pc',
           order: 140
@@ -298,7 +297,7 @@
         },
         {
           title: 'Aaron Meltlake',
-          subtitle: 'Elf, Fighter',
+          subtitle: 'Wood Elf, Fighter',
           avatar: '../aaron.jpg',
           text: 'Shy elf fighter we met on the train. Wearing oversized chain mail with a sword and board.',
           info: 'Aaron received his scarab after his aunt FORCED HIM TO DESTROY A BRONZE DUNGEON CRYSTAL BY HIMSELF.\n\nAaron is from The Prime Island, which is on the southwest of the continent.\n\nAaron\'s aunt teaches offensive magic at Almiraj.\n\nAaron has somehow accidentally drank ink several times. He also lacks self confidence.',
@@ -436,7 +435,7 @@
         },
         {
           title: 'Aunt Meltlake',
-          subtitle: 'Elf, ???',
+          subtitle: 'Wood Elf, Fire Mage',
           avatar: '../aunt.jpg',
           text: 'The strongest fire made in the world. Offensive magic teacher at Almiraj, and Aaron\'s aunt. She forced Aaron to destroy a dungeon crystal on his own, and Aaron thought that was preferable to dealing with her.',
           info: 'Ms. Meltlake refused to help defend the train because the top hat man was a much lower aura level than she was. She refused to disclose her aura ranking, but it is higher than platinum.\n\nShe states that her attacking someone is essentially an act of war. She is wearing a marker of the Primes (Prime Island).',
@@ -463,7 +462,7 @@
         },
         {
           title: 'Arrows of Aura Sleep',
-          subtitle: 'Inactive (5)',
+          subtitle: 'Inactive (3)',
           avatar: '../arrow.jpg',
           text: 'Arrows we collected after they were shot by Top Hat Man into the Darning Needle\'s various cars. They are currently inactive but can be reactivated with strong magic. Very valuable.',
           info: null,
@@ -473,6 +472,34 @@
           type: 'item',
           subtype: 'weapon',
           order: 330
+        },
+        {
+          title: 'Alfonz Mirage',
+          subtitle: 'Human, Carriage Driver',
+          avatar: '../waluigi.jpg',
+          text: 'A skinny man with brownish hair and a 2 horse carriage who greeted us after our train ride.',
+          info: 'Al\'s family moved close to the school "for the joke." His carriage is much larger on the inside than the out. His sister (probably named Alison) is a magic user.',
+          tags: ['NPC', 'Carriage Driver'],
+          associations: null,
+          voice: null,
+          icon: 'mdi-account-outline',
+          type: 'character',
+          subtype: 'npc',
+          order: 340
+        },
+        {
+          title: 'Garmond Kordah',
+          subtitle: 'Half Orc, Barbarian/Fighter',
+          avatar: '../garmond.jpg',
+          text: 'Fighting instructor, barbarian mentor.',
+          info: '',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          voice: null,
+          icon: 'mdi-account-outline',
+          type: 'character',
+          subtype: 'npc',
+          order: 350
         },
       ].sort(function(a, b){return b.order - a.order})
     }),

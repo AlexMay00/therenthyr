@@ -4,6 +4,7 @@
   <v-data-iterator
   :items="events"
   :search="search"
+  :items-per-page="-1"
   >
     <template v-slot:default="{ items }">
       <v-timeline :side="mdAndUp ? null : 'end'">
@@ -72,10 +73,18 @@
           audio: '../hedidntmakeit.ogg'
         },
         {
-          color: 'red',
+          color: 'white',
           year: 'Mar 20, 2024',
           headline: 'Session 3',
-          text: 'The Teenage Magic Nimble Troopers (patent pending) lick their wounds and wait for the adults to wake up to see how much trouble they\'re in.',
+          text: 'The Teenage Magic Nimble Troopers (patent pending) watched on as Slake and Pepper use magic to put The Darning Needle back on to the magical railway. The party talked with Aunt Meltlake, who revealed that she is the most powerful fire mage in all of Manta.\n\nThe train arrived at the nearest stop to Almiraj, where the kids hopped on a carriage driven by a man named Al Mirage. After a long rest on the bigger-on-the-inside carriage, the kids finally made it to the Almiraj School of Amazing Adventurers for the first time.\n\nThe students\' scarabs guided them toward orientation, where they were checked in as new students and sent on their way. Dave led the party toward an omelette station where Chef Dwayne magically produced some fire breakfast. They took their food to go and headed over to an open air atrium where fighting instructor Garmond Kordah was waiting to give his first lesson, a test.\n\n24 students faced off in tournament style 2v2 fights, protected from death by a magic barrier.\n- Dahlen and Selmenoch teamed up and won their match after a lengthy duel.\n- Chipp unleashed a flurry of blows and worked with Aaron to move on to the next round.\n- Sefy and Dashiel were bested by a classic bard trick, and found themselves sleeping through most of their fight. \n- Dave and Sunbeam stuck with their usual game plan (big guy hit, small girl heal) and defeated their challengers.\n\nUp next: 2v2v2. Selmenoch & Dahlen vs Chipp & Aaron vs Dave & Sunbeam.',
+          icon: 'mdi-stadium-outline',
+          avatar: '../arena.jpg',
+        },
+        {
+          color: 'red',
+          year: 'Apr 10, 2024',
+          headline: 'Session 4',
+          text: 'Double dipping to catch up for missed time!',
           icon: 'mdi-dice-d20'
         },
       ].reverse(),
