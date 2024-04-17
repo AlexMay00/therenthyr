@@ -501,7 +501,7 @@
           subtitle: 'Half Orc, Barbarian/Fighter',
           avatar: 'garmond.jpg',
           text: 'Fighting instructor, barbarian mentor.',
-          info: 'Garmond is as kind as he is tough. One time, He once sat with Dave for nearly an hour to listen as he explained his troubles with hurting others. Garmond was patient and gave thoughtful advice to help Dave. A few minutes later, Garmond slapped a student across the face for not liking her group. She was knocked unconscious. ',
+          info: 'Garmond is as kind as he is tough. He once sat with Dave for nearly an hour to listen as he explained his troubles with hurting others. Garmond was patient and gave thoughtful advice to help Dave. A few minutes later, Garmond slapped a student across the face for not liking her group. She was knocked unconscious.\n\n- "I\'ll be over there if anyone wants to whine at me."',
           tags: ['NPC', 'Professor'],
           associations: ['Almiraj'],
           voice: null,
