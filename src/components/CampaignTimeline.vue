@@ -42,25 +42,32 @@
     data: () => ({
       search: '',
       events: [
+      {
+          color: 'white',
+          year: '0',
+          headline: 'Leaving',
+          text: 'The year it is believed the Gods took a step back from Manta. Every year after this point is notated with AL - After Leaving.',
+          icon: 'mdi-eye-outline'
+        },
         {
           color: 'red',
-          year: '36052',
-          headline: 'Manta Forms',
+          year: '4000',
+          headline: 'Manta Proper Forms',
           text: 'Lost to time, it is believed that nations in Manta began to form around this time. I\'m making this up to fill the page, but I\'m sure Mitch has legit dates.',
           icon: 'mdi-flag'
         },
         {
           color: 'blue',
-          year: '45000',
+          year: '27400',
           headline: 'The Five Dungeons',
           text: 'Energy begins to seep from the earth and the five dungeons of Manta are discovered, one by one. Again making this up so the page looks cool. Help me out, Mitch!',
           icon: 'mdi-castle'
         },
         {
           color: 'teal-darken-1',
-          year: '49252',
+          year: '36300',
           headline: 'The Adventure Begins',
-          text: 'Present day, where we start our journey. I think I am going to use this page to build out historical information and important in-game events.',
+          text: 'Present day, where we start our journey. The year the infamous adventuring party, The Ruby Basilisks Team C, was formed.',
           icon: 'mdi-shield-sword'
         },
       ].sort(function(a, b){return b.year - a.year}),

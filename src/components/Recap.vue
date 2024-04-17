@@ -81,9 +81,18 @@
           avatar: '../arena.jpg',
         },
         {
-          color: 'red',
+          color: 'yellow-lighten-1',
           year: 'Apr 10, 2024',
           headline: 'Session 4',
+          text: 'The students were given an hour to rest and prepare before they had to fight each other once again. Dahlen came out swinging, but was the first one taken down in the match. Chipp and Aaron worked together to wear down the well-armored Selmenoch, while Dave cowered in the corner and tried to prevent Sunbeam from hurting his new friends. Somehow, Dave\'s "strategy" paid off, as he and Sunny B won the match.\n\nFor the final round, Dashiel and Dahlen encouraged Dave, taking the time to explain some of the nuances of good and evil. Dashiel also inspired Redd slyly, in an effort to get laid. The fight began, and Phelothir immediately put Sunbeam to sleep, as expected. Dave was able to wake her up and the two went on to beat the ever-loving shit out of their opponents. Dave and Sunbeam won the tournament, but their victory may have come with the price of a strained friendship for now.\n\nWith the tournament over, Gormand now had to assess the performance of each student in order to break them out into groups for the remainder of their schooling. In the meantime, Chipp and Dahlen broke away to check out the library, Dashiel and Selmenoch checked out their dormitories, Dave sulked in the coliseum, and Sefy met a fellow horticulturist in the woods surrounding Almiraj. A few hours later, the teams were announced, and our PCs were placed in Ruby Basilisks Team C 36300.\n\nFestivities commence! In the cafeteria, Duane Strauss (the chef, bard, mentor, professor, entertainer extraordinaire) put on a feast and a show for all of the students at Almiraj. Dashiel disguised himself as Duane, and took over entertaining for a time. Dahlen taught the party about the traditional elven green slop being served and Dave did his best to make tacos out of the ingredients.\n\nAfter the party, our adventurers returned to their dorms where a kegger was already underway. 6 scrolls were waiting for the group, which the students realized were their class schedules. The students found their beds, and drifted to sleep for the first time at the Almiraj School of Amazing Adventurers.',
+          icon: 'mdi-account-school',
+          audio: '../session4.ogg',
+          avatar: '../session4.jpg'
+        },
+        {
+          color: 'red',
+          year: 'Apr 17, 2024',
+          headline: 'Session 5',
           text: 'Double dipping to catch up for missed time!',
           icon: 'mdi-dice-d20'
         },

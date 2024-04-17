@@ -345,7 +345,7 @@
           order: 230
         },
         {
-          title: 'Redd',
+          title: 'Redd Beardsong',
           subtitle: 'Dwarf, Fighter (Fuckist)',
           avatar: 'redd-min.jpg',
           text: 'Redd is a dwarven fighter we met on the train headed to Almiraj. He seems dumb.',
@@ -450,7 +450,7 @@
           tags: ['NPC', 'Professor', 'Almiraj'],
           associations: ['Aaron Meltlake'],
           voice: null,
-          icon: 'mdi-account-outline',
+          icon: 'mdi-human-male-board',
           type: 'character',
           subtype: 'npc',
           order: 310
@@ -505,7 +505,7 @@
           tags: ['NPC', 'Professor'],
           associations: ['Almiraj'],
           voice: null,
-          icon: 'mdi-account-outline',
+          icon: 'mdi-human-male-board',
           type: 'character',
           subtype: 'npc',
           order: 350
@@ -523,6 +523,35 @@
           type: 'location',
           subtype: 'nation',
           order: 360
+        },
+        {
+          title: 'Fred Gannoshar',
+          subtitle: 'Human, Ranger',
+          avatar: 'fred.jpg',
+          text: 'Ranger mentor, survivalist instructor, and forest horticulturalist. Tall, dark-skinned, salt & pepper hair, with well worn leathers.',
+          info: 'Fred\'s passion for the forest is immediately obvious. Sefy bonded with Fred on her first day as she has a similar passion for nature.',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          voice: null,
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 370
+        },
+        {
+          title: 'Duane Strauss',
+          subtitle: 'Half-Elf, Bard',
+          avatar: 'duane.jpg',
+          thumb: '../thumbs/duane.jpg',
+          text: 'Bard mentor, Almiraj chef, entertainer. Middle aged, multi-talented, and charismatic as fuck.',
+          info: ' - "That\'s my advice... make your cleric do it!"',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          voice: '../duane.ogg',
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 390
         },
       ].sort(function(a, b){return b.order - a.order})
     }),
