@@ -561,7 +561,7 @@
           info: 'Worshipper of Oghma, the Lord of Knowledge. Carries a ring of enlarge/reduce in order to fit into ',
           tags: ['NPC', 'Professor'],
           associations: ['Almiraj'],
-          voice: '../duane.ogg',
+          voice: '../loxodon.ogg',
           icon: 'mdi-human-male-board',
           type: 'character',
           subtype: 'npc',
