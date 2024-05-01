@@ -553,6 +553,33 @@
           subtype: 'npc',
           order: 390
         },
+        {
+          title: 'Name?',
+          subtitle: 'Loxodon, Cleric',
+          avatar: 'loxodon.jpg',
+          text: 'Eccentric but enthusiastic history teacher and cleric mentor. A large tear in his left ear is held together by a series of piercings.',
+          info: 'Worshipper of Oghma, the Lord of Knowledge. Carries a ring of enlarge/reduce in order to fit into ',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          voice: '../duane.ogg',
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 400
+        },
+        {
+          title: 'The Black Thumb',
+          subtitle: '???, Rogue',
+          avatar: 'black-thumb.jpg',
+          text: 'Rogue mentor and librarian.',
+          info: '',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 400
+        },
       ].sort(function(a, b){return b.order - a.order})
     }),
     methods: {
