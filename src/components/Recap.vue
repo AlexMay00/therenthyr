@@ -94,13 +94,14 @@
           year: 'Apr 17, 2024',
           headline: 'Session 5',
           text: 'The students began classes and met with their mentors for the first time.\n\nDashiel followed Professor Strauss to a theatre called Bashaba\'s Blessing, where they meet the owner Tippy. Tippy hired Dashiel as an intern and tasked him with bringing friends to a show on Friday night. Selmenoch met with his mentor, who happened to have had his arm cut off by Sel\'s grandfather. Dave\'s mentor, Gormand, helped Dave get big mad and encouraged Dave to continue working to find and control his anger. Chipp\'s mentor, Flint, spent some time getting to know his new apprentice, and showed her a few parkour shortcuts around the school. Sefy and her mentor discussed religion and history for a time, and she was encouraged to attend the next Gathering of Faith. Dahlen met with Headmistress Claire, who was concerned about the way Dahlen has been given powers from an unknown patron, especially without a set contract.\n\nThe day ended with Dahlen having an intense dream about being chased by a giant armored bear with rocky protrusions coming from its neck and face. A diadem that Dahlen was wearing falls off of his head and erupts into a green light. As Dahlen awakes, he sees that his necklace has a slight green glow, and is burning hot to the touch. Spooky stuff.\n\nMost importantly, we leveled up! Level 3 baybeee let\'s goooooo',
-          icon: 'mdi-notebook-edit'
+          icon: 'mdi-notebook-edit',
+          audio: '../session5.ogg'
         },
         {
           color: 'red',
           year: 'May 15, 2024',
           headline: 'Session 6',
-          text: '',
+          text: 'Fate is about to get needled.',
           icon: 'mdi-dice-d20'
         },
       ].reverse(),
