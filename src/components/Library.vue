@@ -554,7 +554,7 @@
           order: 390
         },
         {
-          title: 'Name?',
+          title: 'Jared Tora',
           subtitle: 'Loxodon, Cleric',
           avatar: 'loxodon.jpg',
           text: 'Eccentric but enthusiastic history teacher and cleric mentor. A large tear in his left ear is held together by a series of piercings.',
@@ -569,7 +569,7 @@
         },
         {
           title: 'The Black Thumb',
-          subtitle: '???, Rogue',
+          subtitle: 'Drow, Rogue',
           avatar: 'black-thumb.jpg',
           text: 'Rogue mentor and librarian.',
           info: '',
@@ -578,7 +578,59 @@
           icon: 'mdi-human-male-board',
           type: 'character',
           subtype: 'npc',
-          order: 400
+          order: 410
+        },
+        {
+          title: '???',
+          subtitle: 'Satyr, Fighter',
+          avatar: 'satyr.jpg',
+          text: 'Fighter mentor. A grumpy satyr who had his arm cut off by Selmenoch\'s grandfather, Solmenoch. His left arm is a custom prosthetic that acts as a shield.',
+          info: '',
+          tags: ['NPC', 'Professor', 'Horn & Hoof Faction'],
+          associations: ['Almiraj'],
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 415
+        },
+        {
+          title: 'Flint Relur',
+          subtitle: 'Human?, Monk',
+          avatar: 'flint.jpg',
+          text: 'Monk mentor. Dao inspired garb, frequent tea drinker, hangs out in high areas like a cat.',
+          info: '',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 420
+        },
+        {
+          title: 'Theodore "Tippy" Drinksmeade',
+          subtitle: 'Halfling, Bard',
+          avatar: 'tippy.jpg',
+          text: 'Older halfling man, owner of Bashaba\'s Blessing. Talks like Mickey Mouse.',
+          info: 'Hired Dashiel as an intern to help put on plays, and bring people to his theatre.',
+          tags: ['NPC'],
+          associations: ['Almiraj'],
+          icon: 'mdi-account-outline',
+          type: 'character',
+          subtype: 'npc',
+          order: 430
+        },
+        {
+          title: 'Headmistress Claire',
+          subtitle: 'Human, Witch',
+          avatar: 'claire.jpg',
+          text: 'A small, wrinkly, older human woman who is both the Headmistress of the school, as well as the warlock mentor.',
+          info: 'Claire is helping Dahlen find a patron to follow.',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 440
         },
       ].sort(function(a, b){return b.order - a.order})
     }),
