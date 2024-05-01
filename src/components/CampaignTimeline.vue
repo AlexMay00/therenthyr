@@ -50,17 +50,10 @@
           icon: 'mdi-eye-outline'
         },
         {
-          color: 'red',
-          year: '4000',
-          headline: 'Manta Proper Forms',
-          text: 'Lost to time, it is believed that nations in Manta began to form around this time. I\'m making this up to fill the page, but I\'m sure Mitch has legit dates.',
-          icon: 'mdi-flag'
-        },
-        {
           color: 'blue',
-          year: '27400',
+          year: '3000',
           headline: 'The Five Dungeons',
-          text: 'Energy begins to seep from the earth and the five dungeons of Manta are discovered, one by one. Again making this up so the page looks cool. Help me out, Mitch!',
+          text: 'Energy begins to seep from the earth and the five dungeons of Manta are discovered, one by one.',
           icon: 'mdi-castle'
         },
         {
