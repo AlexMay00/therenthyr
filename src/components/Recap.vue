@@ -73,7 +73,7 @@
           audio: '../hedidntmakeit.ogg'
         },
         {
-          color: 'white',
+          color: 'grey',
           year: 'Mar 20, 2024',
           headline: 'Session 3',
           text: 'The Teenage Magic Nimble Troopers (patent pending) watched on as Slake and Pepper use magic to put The Darning Needle back on to the magical railway. The party talked with Aunt Meltlake, who revealed that she is the most powerful fire mage in all of Manta.\n\nThe train arrived at the nearest stop to Almiraj, where the kids hopped on a carriage driven by a man named Al Mirage. After a long rest on the bigger-on-the-inside carriage, the kids finally made it to the Almiraj School of Amazing Adventurers for the first time.\n\nThe students\' scarabs guided them toward orientation, where they were checked in as new students and sent on their way. Dave led the party toward an omelette station where Chef Dwayne magically produced some fire breakfast. They took their food to go and headed over to an open air atrium where fighting instructor Garmond Kordah was waiting to give his first lesson, a test.\n\n24 students faced off in tournament style 2v2 fights, protected from death by a magic barrier.\n- Dahlen and Selmenoch teamed up and won their match after a lengthy duel.\n- Chipp unleashed a flurry of blows and worked with Aaron to move on to the next round.\n- Sefy and Dashiel were bested by a classic bard trick, and found themselves sleeping through most of their fight. \n- Dave and Sunbeam stuck with their usual game plan (big guy hit, small girl heal) and defeated their challengers.\n\nUp next: 2v2v2. Selmenoch & Dahlen vs Chipp & Aaron vs Dave & Sunbeam.',
@@ -98,9 +98,25 @@
           audio: '../session5.ogg'
         },
         {
-          color: 'red',
-          year: 'May 15, 2024',
+          color: 'purple',
+          year: 'May 1, 2024',
           headline: 'Session 6',
+          text: 'The theme of this session was: Auras.\n\nThe party woke up early, and Dahlen shared his dream with everyone. The party attended their perception and auras class, where the fighting mentor, Vasa Gostillar, helped each student figure out how to get in touch with and release their auras.\n\n- Dahlen: (74, Resistance to cold damage)\nGives a feeling of warmth and coziness radiating fom the center of you. \n\n- Dashiel: (95, Sense secrets e.g. hidden items, secret doors, etc)\nFeels like coming home on a Friday, after being away all day, and when you get to your door you find a box left by a close friend. There is a note on the box that says that while they were out, they found this and thought of you. Inside of the box are your favorite cookies, delicious and still warm. Your house is clean, there is nothing to do except put your feet up and relax.\n\n- Dave: (98, Instead of dropping to 0hp, you remain at 1 hp. Once per long rest.)\nFeels too big for the space it is occupying, as if it could burst out of its area at any point. Like pumping air into a glass ball that could explode any minute.\n\n- Sefy: (62, Sense fiend)\nLike being in a grove, green trees above, the sun hitting the perfect spot like beam of light. There is a strong breeze and the smell of wildflowers. A beautiful morning peaking through the trees.\n\n- Chipp: (71, Sense invisibility)\nThat feeling when you\'re staying somewhere new and it feels like you\'re being watched. But also, like you\'re the one doing the watching. A knowing, seeing feeling.\n\n- Selmenoch: (96, Sense Danger, advantage on dex saves against effects in your aura)\nFeels like standing in front of a bonfire on an autumn night. There are people around but they are spread out. You\'re kind of by yourself, and the cold breeze hits you but you\'re still warmed by the fire.\n\nSefy tried to ask Vasa to tell her more about Satyrs, but he swiftly declined. Sefy retreated to the woods for prayer and a good cry. Dave and Selmenoch sparred to pass the time, and Selmenoch realized that Dave, while strong, has awful technique and was quickly defeated. Dahlen signed out a book, a ledger of previous team names, from the library (a.k.a. signed a blood pact). This helped him realize that there is a much larger pact etched onto his soul. Dashiel attempted to set up Dahlen with Mary, but failed. Chipp parkoured around the school for four hours.\nThe party then attended magical items & supplies class where they met Professor Ellen Lozzarr. Chipp and Selmenoch both took jobs helping Ellen with enchantments on Mondays before class.\nAt some point Dahlen pushed his aura into his pendant, at which point a book he had never seen before appeared in his hands. An eldritch blast erupts from the book, and Dave tells Dahlen to practice using the book on him, briefly covering him in fairy fire. Dahlen was later told by Headmaster Claire that this book is his tome book, filled with spells that are currently beyond his comprehension.\nSefy got some new better armor from the Quartermaster Aldo Miraj. The party, after some debate, took a job from the adventurers guild board: "Missing Pet: See Charlie". They traveled into town to try to locate Charlie. They met Calamity Jane, a bartender at The Last Mistake, who pointed them in the right direction.\nCharlie is missing his SPACE HAMSTER Fluffles, and he is willing to pay the group 20gp to return him. He keeps Fluffles locked up in a cage and he seemed generally like a shitty dude.',
+          icon: 'mdi-sine-wave',
+          audio:'../session6.ogg'
+        },
+        {
+          color: 'blue gray',
+          year: 'May 15, 2024',
+          headline: 'Session 7',
+          text: 'The group asked their classmate Lyss, who is from the moon, about space hamsters. We fought Garmond, who kicked our asses. \n\n\n\n\n\nStill working on this.',
+          icon: 'mdi-human-male-board',
+          avatar:'../session7.jpg'
+        },
+        {
+          color: 'red',
+          year: 'May 29, 2024',
+          headline: 'Session 8',
           text: 'Fate is about to get needled.',
           icon: 'mdi-dice-d20'
         },
