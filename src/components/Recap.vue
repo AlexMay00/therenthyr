@@ -116,9 +116,23 @@
           audio:'../session7.ogg'
         },
         {
-          color: 'red',
+          color: 'pink',
           year: 'May 29, 2024',
           headline: 'Session 8',
+          text: 'After lunch and a brief rest, the group attended Spire 3 for defensive magic class. The room was lit by a magical crystal chandelier, and their instructor, Indari Windsong, an Aarakocra in a long dark blue robe with a silver star pattern, taught them about cantrip rings. Dave used his first magical item, a plain copper band, while Dahlen showcased his proficiency in defensive spells. Indari encouraged Dave to use the ring, which emitted warmth as he successfully channeled its energy towards Dahlen. Afterward, Dahlen needed clearance from Mr. Thumb to access certain magic tomes in the library.\n\nDashiel\'s aura sensed secrets, influenced by Duane Strauss\'s ring, which enhanced his appearance. Later, Dahlen impressed Mr. Thumb with his understanding of the library system during his library duty, shelving books until he could access more advanced texts.\n\nSefy visited the church center and met Tolsivar, a Lionen cleric, inadvertently making plans for a future meal. Meanwhile, Dave updated Sunbeam and planned a walk in the woods, leaving the hamster bait/cow leg in his dorm.\n\nThe next day, they attended classes and met with mentors. Over breakfast, Dahlen shared the mysterious origin of his powers, linked to his mother\'s tragic death and an amulet. Sefy, also an orphan, cherished only a blanket as a keepsake, while Dave remained clueless about his blood family.\n\nDuring mentor meetings, Sefy received a prank task from Redpelt, Dashiel interacted with Piker from Oasis Players, and Dave\'s assignment involved a failed surprise attack on an absent Garmond.\n\nDahlen met with the headmistress, communicating through a stone named Argus, who praised his progress in magic. Chipp\'s mentor engaged her in rooftop challenges, leading to a daring jump that startled Aaron and sparked potential romance.\n\nTheir adventures continued in the school, blending magical education with personal discovery and interpersonal dynamics.',
+          icon: 'mdi-heart'
+        },
+        {
+          color: 'teal-darken-4',
+          year: 'June 26, 2024',
+          headline: 'Session 9',
+          text: 'Selmenoch met with his mentor, Vasa Gostillar, who questioned why Selmenoch had left the Faewild and assessed his dueling skills. They dueled, with Selmenoch mounted on his corgi. His performance was satisfactory, and his next task was to uncover the truth about his grandfather\'s death.\n\nNext, they attended the Survival In the Wilds class with Fred Gannoshar, a human teacher. The class gathered at the edge of the forest alongside the human team, primarily knowing Mary from their group. Fred, a tall, dark-skinned human with gray hair and a rugged appearance, exuded boy scout energy, leading them to "the foot," a giant marble structure possibly part of an ancient king\'s statue base.\n\nDuring the class, Dashiel inquired about space hamsters, but Fred hadn\'t encountered them. He emphasized survival skills both in the wilderness and dungeons. They learned about the Smother Vine, a dangerous plant that suffocates sleepers, and ended class abruptly.\n\nSefy led them out of the woods, noting the human team\'s peculiar behavior. It was around 7 PM in-game time.\n\nAfterward, Dahlen, Dashiel, and Sefy researched space hamsters. Selmenoch acquired armor from Aldo Miraj\'s armory by trading an item. They headed into the woods led by Sefy to search for space hamsters.\n\nDave informed Dashiel about a note from Red, prompting Dashiel to leave in search of Red. While in the forest with a leg as bait, they encountered a two-headed crocodile and engaged in combat. Chipp successfully handled the situation.\n\nContinuing their exploration, they located a space hamster burrow. Dahlen used thaumaturgy to agitate the hamster, and Sefy communicated with it, discovering it wasn\'t the creature they sought but an eight-legged weasel. Selmenoch swiftly dispatched it, freeing Sefy from its grasp. They found shredded leather armor, a blue smashed scarab, a flail, and gold pieces in the burrow.\n\nAfter healing Sefy, Dashiel navigated them out of the woods.',
+          icon: 'mdi-forest'
+        },
+        {
+          color: 'red',
+          year: 'July 10, 2024',
+          headline: 'Session 10',
           text: 'Fate is about to get needled.',
           icon: 'mdi-dice-d20'
         },
