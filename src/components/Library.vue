@@ -7,6 +7,7 @@
     :items="currentOption === 'all' ? nouns : nouns.filter(noun => noun.type === currentOption || noun.subtype == currentOption)"
     :items-per-page="-1"
     :search="search"
+    :custom-filter="searchAfterThreeChars"
   >
     <template v-slot:default="{ items }">
       <v-row>
@@ -282,7 +283,7 @@
           tags: ['NPC', 'Darning Needle', 'Bartender'],
           associations: ['Toggins', 'Pepper'],
           voice: '../bumper.ogg',
-          icon: 'mdi-account-outline',
+          icon: 'mdi-glass-mug-variant',
           type: 'character',
           subtype: 'npc',
           order: 190
@@ -666,7 +667,7 @@
           info: 'Calamity has a big crack in her left arm that has been filled with copper.',
           tags: ['NPC', 'Bartender'],
           associations: ['Almiraj'],
-          icon: 'mdi-account-outline',
+          icon: 'mdi-glass-mug-variant',
           type: 'character',
           subtype: 'npc',
           order: 470
@@ -715,7 +716,13 @@
     methods: {
       optionChanged (option) {
         this.currentOption = option
-      }
+      },
+      searchAfterThreeChars (value, query, item) {
+        if(query.length > 2) 
+          return value != null &&
+            query != null &&
+            value.toString().indexOf(query) !== -1
+      },
   }
 }
 </script>

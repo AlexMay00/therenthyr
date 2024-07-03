@@ -95,7 +95,8 @@
           headline: 'Session 5',
           text: 'The students began classes and met with their mentors for the first time.\n\nDashiel followed Professor Strauss to a theatre called Bashaba\'s Blessing, where they meet the owner Tippy. Tippy hired Dashiel as an intern and tasked him with bringing friends to a show on Friday night. Selmenoch met with his mentor, who happened to have had his arm cut off by Sel\'s grandfather. Dave\'s mentor, Gormand, helped Dave get big mad and encouraged Dave to continue working to find and control his anger. Chipp\'s mentor, Flint, spent some time getting to know his new apprentice, and showed her a few parkour shortcuts around the school. Sefy and her mentor discussed religion and history for a time, and she was encouraged to attend the next Gathering of Faith. Dahlen met with Headmistress Claire, who was concerned about the way Dahlen has been given powers from an unknown patron, especially without a set contract.\n\nThe day ended with Dahlen having an intense dream about being chased by a giant armored bear with rocky protrusions coming from its neck and face. A diadem that Dahlen was wearing falls off of his head and erupts into a green light. As Dahlen awakes, he sees that his necklace has a slight green glow, and is burning hot to the touch. Spooky stuff.\n\nMost importantly, we leveled up! Level 3 baybeee let\'s goooooo',
           icon: 'mdi-notebook-edit',
-          audio: '../session5.ogg'
+          audio: '../session5.ogg',
+          avatar: '../schedule.jpg'
         },
         {
           color: 'purple',
@@ -109,9 +110,10 @@
           color: 'blue gray',
           year: 'May 15, 2024',
           headline: 'Session 7',
-          text: 'The group asked their classmate Lyss, who is from the moon, about space hamsters. We fought Garmond, who kicked our asses. \n\n\n\n\n\nStill working on this.',
-          icon: 'mdi-human-male-board',
-          avatar:'../session7.jpg'
+          text: 'The group asked their classmate Lyss, who is from the moon, about space hamsters. She explained how strong and savage they are, but she was acting very suspicious when she said there is not use to keep them caged as a pet.\n\nThe group made their way into town, where they visited The Gathering of Faith, a shopping-mall-esque building where many religious organizations have spaces for worship. Sefy met Priest Redpelt at Ehlonna\'s temple and talked about her father figure, Darius Strongback. Chipp visited the temple of Pelor where sang with an old lady. She met a warforged name Orrena, who is the keeper of the shrine.\n\nThe group window shopped in town for a bit and then headed to their offensive combat class. There, the party was instructed to fight Garmond, who kicked their asses. Garmond said that the mid-term would be fighting in a simulated dungeon.',
+          icon: 'mdi-music',
+          avatar:'../session7.jpg',
+          audio:'../session7.ogg'
         },
         {
           color: 'red',
