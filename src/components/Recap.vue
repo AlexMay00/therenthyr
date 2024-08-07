@@ -130,10 +130,18 @@
           icon: 'mdi-forest'
         },
         {
-          color: 'red',
-          year: 'July 10, 2024',
+          color: 'orange',
+          year: 'July 24, 2024',
           headline: 'Session 10',
-          text: 'Fate is about to get needled.',
+          text: 'The gang grew weary of continuing their pursuit of the space hamster, and decided to quit while they were (10gp) ahead. Dashiel visited his \"good friend,\" Redd where their \"friendship\" continued to "grow."\n\nThe students took full advantage of their next class, Monsters of Manta, taught by professor Garron Stonepelt. Garron was unable to detect a space hamster anywhere on the school grounds. He also answered many questions for the group, and provided some notable information regarding Manta\'s 5 dungeons while showing off his collection of domesticated dungeon goblins.\n\n- 5 dungeons, each is active at different times. Valon (South East dungeon) is currently active.\n- In each dungeon, a great dungeon guardian lives somewhere within the last 5 floors. No one has ever killed one.\n     - Red Dragon (Balsantor)\n     - Ice Kraken (Korladon)\n     - Beholder (Shykilzor)\n     - Undead Goblin Lich (Ashdrae-ran)\n     - The Great Iron Golem (Gamvotsha)\n- Each floor can be the size of several cities put together.\n- The dungeons reshape themselves when no one is watching.\n- There out outposts within the dungeon that offer some respite for dungeoneers.\n- "Nodes" are smaller dungeons that pop up near the great dungeons. They must be dealt with to prevent them from harming the surrounding areas.\n\nDahlen volunteered to find a play for Dashiel in the library, and it was discovered that the play was checked out by a goliath second year named Carolyn. Dave joined Dahlen to track down the book, and they eventually met Carolyn who wore a sword on her hip that is brandished with the same symbol as Dahlen\'s necklace. Dave was a bit tongue-tied, having met his another goliath for the first time. Carolyn also did not know who her patron was yet, and encouraged Dahlen to lie to the professors about not knowing. The book was handed over to Dahlen with a new contract.',
+          audio: 'session10.ogg',
+          icon: 'mdi-pencil'
+        },
+        {
+          color: 'red',
+          year: 'August 7, 2024',
+          headline: 'Session 11',
+          text: 'Fate is about to get needled, baby.',
           icon: 'mdi-dice-d20'
         },
       ].reverse(),

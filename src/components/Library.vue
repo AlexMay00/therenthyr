@@ -711,6 +711,32 @@
           subtype: 'npc',
           order: 500
         },
+        {
+          title: 'Garron Stonepelt',
+          subtitle: 'Monster of Manta Teacher',
+          avatar: 'garron.jpg',
+          text: 'Druidic mentor, monster expert.',
+          info: 'Thinner than expected minotaur with colossal horns that brandish various bits and bobbles. Upper body covered in greenish metal plate that is filigreed to look like lichen.',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          icon: 'mdi-account-outline',
+          type: 'character',
+          subtype: 'npc',
+          order: 510
+        },
+        {
+          title: 'Carolyn',
+          subtitle: 'Goliath Warlock',
+          avatar: 'carolyn.jpg',
+          text: 'Carolyn carries a large sword, brandishing the same symbol as the necklace found by Dahlen.',
+          info: 'Carolyn was the first goliath Dave had ever seen, aside form himself.\n\nShe lent Dahlen a play she had checked out from the library that Dashiel needed for his troupe.\n\nCarolyn encouraged Dahlen to lie about the fact that they do not know who their (likely shared) patron truly is.',
+          tags: ['NPC', 'Professor'],
+          associations: ['Almiraj'],
+          icon: 'mdi-account-outline',
+          type: 'character',
+          subtype: 'npc',
+          order: 520
+        },
       ].sort(function(a, b){return b.order - a.order})
     }),
     methods: {
@@ -721,7 +747,7 @@
         if(query.length > 2) 
           return value != null &&
             query != null &&
-            value.toString().indexOf(query) !== -1
+            value.toString().toLowerCase().indexOf(query.toLowerCase()) !== -1
       },
   }
 }
