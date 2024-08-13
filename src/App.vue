@@ -1,17 +1,14 @@
 <template>
-  <v-app id="almiraj">
+  <v-app id="therenthyr">
     <v-app-bar image="/banner.jpg" absolute>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-app-bar-title class="text-h5 font-weight-black">A.S.A.A.</v-app-bar-title>
-      <v-spacer></v-spacer>
-      <div id="imACuteLilBunny" class="bunny-pen" @mouseover="bunny = true" @mouseleave="bunny = false"></div>
+      <v-app-bar-title class="text-h5 font-weight-black">Arcis - Therenthyr Empire</v-app-bar-title>
     </v-app-bar>
 
     <v-main>
       <v-navigation-drawer width="200" v-model="drawer" location="left" temporary absolute>
         <v-list @click.stop="drawer = !drawer" :items="pages" @click:select="pageChanged($event)">
         </v-list>
-          <v-img class="bunny" v-show="bunny" src="/almiraj.jpg"  position="bottom" rounded></v-img>
       </v-navigation-drawer>
 
       <v-container v-show="this.currentPage === '/library' || this.currentPage === '/'" v-bind:id="this.currentPage">
@@ -46,7 +43,6 @@
       currentOption: 'all',
       drawer: false,
       group: null,
-      bunny: false,
       pages: [
         {
           title: 'Library',
@@ -90,14 +86,3 @@
     },
   }
 </script>
-
-<style scoped>
-.bunny-pen {
-  min-width: 100px;
-  min-height: 50px;
-}
-.bunny {
- position: unset;
- max-width: 50%;
-}
-</style>
