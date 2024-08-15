@@ -42,9 +42,9 @@
       events: [
         {
           color: 'blue',
-          year: 'August ?, 2024',
+          year: 'August 15, 2024',
           headline: 'Session 0',
-          text: 'We need to schedule this!!',
+          text: 'Zoom link is on the event in discord!\n\n- Home rules\n- Stuff we don\'t want to do\n- Stuff we do want to do\n- Setting overview\n- Q&A\n- Schedule\n- Combat',
           icon: 'mdi-video-account'
         },
         {
