@@ -44,7 +44,7 @@
           color: 'blue',
           year: 'August 15, 2024',
           headline: 'Session 0',
-          text: 'Zoom link is on the event in discord!\n\n- Home rules\n- Stuff we don\'t want to do\n- Stuff we do want to do\n- Setting overview\n- Q&A\n- Schedule\n- Combat',
+          text: '- Homebrew rules:\n    - Hidden death rolls (PC & DM only)\n        - Use action for perception/medicine check to see if an ally is dying\n    - Bonus action to drink a potion\n        - Choosing to use an action applies max healing\n    - Lockpicking kits burned on failure\n        - Common loot, purchasable resource\n    - Medicine kits more common for out of combat healing (1 min to apply or something)\n- Don\'t show up wasted\n- Don\'t steal other PCs shit\n- Money harder to come by\n- Loot should be shared\n- Character has to want to be with a party that adventures\n- Resurrection magic is hard to come by, especially early\n\n\n- Character sheets & backstories done ideally by Sept 1',
           icon: 'mdi-video-account'
         },
         {
