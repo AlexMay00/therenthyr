@@ -56,7 +56,7 @@
         {
           title: 'The Grasslands',
           subtitle: 'Colonized Nation',
-          avatar: 'alpha-g-circle-outline.svg',
+          avatar: 'grasslands.jpg',
           text: 'The Grasslands was a peaceful region for hundreds of years prior to Therenthyr\'s rule. Today, these lands are kept in check through force and military presence.',
           info: 'Named after its vast stretches of hilly grassland, this region is located in one of the most advantageous locations in all of Arcis. Seas to the north and west provide both protections and trade, while the mountains to the east serve as a natural barrier and supply the lands with ample fresh water throughout each season. The Great Elven Wall to the northwest was never an issue, and actually helped the nation grow unaccosted by the elves. Trusting that the gates would remain closed proved to be a grave mistake for the nation, however, as the imperial army faced no resistance when it ultimately decided to take The Grasslands.\n\nPresently, The Grasslands is mostly peaceful day to day. Farmers continue to farm, fishermen continue to fish and traders continue to trade; though each now pays their dues to Therenthyr. In some ways, many citizens of The Grasslands are grateful for the opportunity to travel freely to Theren and its cities. At the same time, it is no longer possible to establish a homestead on a grassy patch of land as you wish - the empire owns every square inch.\n\nSome Grasslandians accept the elves\' presence and follow their rules as expected, while others conspire quietly to establish resistance. Many brave souls decide to flee the nation altogether, following in the footsteps of their recent ancestors through the southern jungle toward Freemans Republic. Still, some seek the protection and consistency the empire offers, and leave harsher lands for the safety of The Grasslands.\n\n- Primarily home to Humans, Gnomes, and Halflings.\n- It is not rare to spot the occasional dwarf or tiefling near the eastern mountains.\n- Small villages and towns are found throughout the region, with few large population centers outside of the capitol city of Briksburg.',
           tags: ['Colonized'],
@@ -82,7 +82,7 @@
         {
           title: 'Freemans Republic',
           subtitle: 'Nation',
-          avatar: 'alpha-f-circle-outline.svg',
+          avatar: 'freemans.jpg',
           text: 'A tropical climate sounds nice, but the harsh humidity and dangerous beasts that come with it aren\'t exactly ideal. The jungles, cliffs, and shores keep the empire at bay, and only the most determined seem to ever make it to the free civilizations that lie within.',
           info: 'Freemans Republic is a nation literally shaped by its geography. A ferocious jungle river acts as a natural border to the north, and is very difficult to cross. Shores on the eastern and western borders make it difficult for any kind of large for to invade, while the cliffs to the south drop hundreds of feet to air wastelands below. Freemans Republic was the perfect place for those seeking to escape the expansion of the Therenthyr Empire - difficult to reach and full of natural resources. If a true threat to the empire were to exist, it would likely form here.\n\n- Primarily home to Tabaxi, and Genasi.\n- Humans, gnomes, and halflings are common, having fled from The Grasslands.\n- There are very few small towns or villages, as the environment is harsh and requires the efforts of many to survive.',
           tags: ['Tabaxi, Genasi'],
@@ -147,7 +147,7 @@
         {
           title: 'Theren',
           subtitle: 'Nation',
-          avatar: 'alpha-t-circle-outline.svg',
+          avatar: 'theren.jpg',
           text: 'Theren is the largest of the 10 nations, and boasts the greatest range of climates and resources. Elves of all kinds inhabit these lands, and are fiercely loyal to Aeis Therenthyr and his ambitions.',
           info: 'Theren is a heavily forested nation. Some areas of the forests spread so far and deep, that many believe the majority of the wilderness is still completely untouched. Most elves show great respect and admiration for the nature they are surrounded with, and often construct their buildings and cities to blend with the trees and rivers they are built around. Still, the elves have made significant changes to the lands, developing large cities surrounded by sprawling suburban towns and villages.\n\nElves often live for thousands of years, and many are able to pass generational wealth, built for millennia down to their families. This abundance of wealth is apparent among the many noble families that reside near the four main cities. The nobles of Theren hold great power and influence, and some take advantage of this to help guide the empire in a direction they see as favorable. For instance, allowing non-elves to reside within Theren was originally pursued by wealthy nobles who no longer wanted their families spending time laboring or serving in the imperial army. Though some non-elves do eventually lead very comfortable lives in Theren, none have been able to achieve the same status as some of the elven families who have been padding their coffers for thousands of years.\n\nOriginally, the four main elven races (High, Wood, Avariel, Drow) lived peacefully but separated. The Avariel elves built The Great Elven wall sometime around -10,000, which almost entirely kept the squabbling of the mortals beyond the wall at bay. This period between -10,000 to 0, is known as The Era of Elven Isolationism - due to both the elves separation from the rest of Arcis, and from themselves. Once Aeis united the elven races, this era came to an end, and Theren was formed.\n\n- Primarily home to High Elves, Wood Elves, Avariel Elves, and Drow.\n- All other races are relatively common, though often part of the working class.',
           tags: ['High Elves', 'Drow', 'Woof Elves', 'Avariel Elves'],
@@ -173,7 +173,7 @@
         {
           title: 'Farreach',
           subtitle: 'Nation',
-          avatar: 'alpha-f-circle-outline.svg',
+          avatar: 'farreach.jpg',
           text: 'Farreach is a seafaring society that is almost entirely comprised of Dragonborn. The heat of the southern nation makes it difficult for warm-blooded species to thrive.',
           info: 'Dragonborn culture is one of strength and resilience. The citizens of Farreach have defended their land for thousands of years, from both foreign invaders and monstrous local fauna.\nFarreach has largely developed as a seafaring/fishing society. The dragonborn ships are especially well built, and are among the fastest ships in Arcis.',
           tags: ['Dragonborn', 'Fishing', 'City', 'Farmland'],
@@ -199,7 +199,7 @@
         {
           title: 'The Barren Southlands',
           subtitle: 'Nation',
-          avatar: 'alpha-b-circle-outline.svg',
+          avatar: 'southlands.jpg',
           text: 'A desert land full of death, sand, and the bones of long dead ancient creatures. Among the vast nothingness, the occasional settlement can be found, though most will migrate to find the nearest source of water as the seasons change from hot to more hot.',
           info: 'The Barren Southlands is home to the Lizardfolk and Tabaxi of Ikephi, as well as the Orcs of Orcland. If the Orcs aren\'t enough to keep the average traveler away, the intense heat, lack of water, and giant sandworms will usually do the trick.',
           tags: ['Lizardfolk', 'Half-Orcs', 'Tabaxi', 'Desert'],
@@ -238,9 +238,9 @@
         {
           title: 'Kolduhr',
           subtitle: 'Nation',
-          avatar: 'alpha-k-circle-outline.svg',
-          text: '',
-          info: '',
+          avatar: 'kolduhr.jpg',
+          text: 'The frozen tundras of this nation have been nearly inaccessible for the better part of the past century. However, a recent thaw combined with favorable tidal patterns have allowed the land bridge between Kolduhr and Springland to remain passable for the past few decades.',
+          info: 'The waters surrounding Kolduhr are virtually impassable due to the ship-killing ice spears that form in the salty waters. This is fine in the eyes of the dwarves and goliaths who inhabit Kolduhr, who have long preferred their isolation. Aeis Therenthyr knows that the land bridge may not be dry for long, and has taken action to establish outposts in southern Kolduhr while the opportunity exists.',
           tags: ['Dwarves', 'Goliaths'],
           associations: ['Land Bridge'],
           icon: 'mdi-earth',
@@ -252,8 +252,8 @@
           title: 'Lakecrest',
           subtitle: 'Capital of Whitecap',
           avatar: 'lakecrest.jpg',
-          text: '',
-          info: '',
+          text: 'A fishing city with a drinking problem.',
+          info: 'a',
           tags: ['Whitecap', 'Capital', 'City'],
           associations: [],
           icon: 'mdi-city',
@@ -264,9 +264,9 @@
         {
           title: 'Whitecap',
           subtitle: 'Nation',
-          avatar: 'alpha-w-circle-outline.svg',
-          text: '',
-          info: '',
+          avatar: 'whitecap.jpg',
+          text: 'To the west, lake shores provide peaceful and serene backdrops. To the east, swamps and wetlands dominate the land, providing natural homes to the many swamp creatures who live there.',
+          info: 'Lizardfolk, Tortle, and Bullywug make up the majority of citizens here, especially in the swampy areas toward the east. It is very common to see dragonborn here as well, as Farreach is just a short boat ride southward.',
           tags: ['Lake', 'Swamp'],
           associations: [],
           icon: 'mdi-earth',
@@ -276,7 +276,7 @@
         },
         {
           title: 'Ozdar Dra',
-          subtitle: 'Capital of TOrcland',
+          subtitle: 'Capital of Orcland',
           avatar: 'ozdar.jpg',
           text: 'Little is known about Ozdar Dra, aside from what can be observed from beyond the deep canyons that surround the orc-filled city.',
           info: '',
@@ -292,7 +292,7 @@
           subtitle: 'Nation',
           avatar: 'alert-decagram-outline.svg',
           text: 'Named after all the orcs that live there.',
-          info: '',
+          info: 'Orcland is recognized as a nation purely out of caution; it is a dangerous area filled with short-tempered orcs. Most travelers give the area a wide berth when traveling to Ikephi, and few non-orcs have ever made it out alive when unaccompanied by an orcish chaperone.',
           tags: ['Orcs', 'Canyons'],
           associations: [],
           icon: 'mdi-earth',
@@ -316,7 +316,7 @@
         {
           title: 'Ashtimber',
           subtitle: 'Nation',
-          avatar: 'alpha-a-circle-outline.svg',
+          avatar: 'ashtimber.jpg',
           text: '',
           info: '',
           tags: ['Forest', 'Swamp'],
@@ -342,12 +342,12 @@
         {
           title: 'Hamburg',
           subtitle: 'Nation',
-          avatar: 'hamburger.svg',
+          avatar: 'hamburg.jpg',
           text: '',
           info: '',
           tags: ['The Grasslands', 'Capital', 'City', 'Farmland'],
           associations: ['Colonized'],
-          icon: 'mdi-earth',
+          icon: 'mdi-hamburger',
           type: 'location',
           subtype: 'nation',
           order: 111
@@ -368,7 +368,7 @@
         {
           title: 'Springland',
           subtitle: 'Nation',
-          avatar: 'alpha-s-circle-outline.svg',
+          avatar: 'springland.jpg',
           text: '',
           info: '',
           tags: ['Farmland'],
@@ -461,7 +461,7 @@
           order: 540
         },
         {
-          title: '???',
+          title: 'Udo Slugnot',
           subtitle: 'Orc, Fighter',
           avatar: 'puz.jpg',
           thumb: '../thumbs/puz.jpg',
