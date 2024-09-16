@@ -51,7 +51,22 @@
           color: 'red',
           year: 'September 9, 2024',
           headline: 'Session 1',
-          text: 'Adventure awaits!',
+          text: 'We began in a dark room on an empire transport ship. The room had been converted into a makeshift prison cell, and our 6 adventurers were chained together.\n\nAfter some introductions the party began scheming a way to escape with the tools some had managed to kiester. A gaunt old man in the corner of the room burst awake and gave the party, Tem in particular, a warning about "shadows." A brief argument ensued between Udo and an imperial soldier.\n\nCommotion was heard on the deck above and a large explosion blew a hole in the side of the ship. The explosion killed the old man and also damaged the door of the prison cell enough to allow the party to exit. Our adventurers fought their way to a storage room where their personal belongings were being held, and they hid out for a while as pirates killed off the remaining soldiers. A goblin pirate named Pickles introduced himself and offered a bite of hit wet, girthy pickle. Eudora accepted the offer, and Pickles returned to the fight.\n\nThe group decided to approach the pirates calmly, figuring that Pickles had made the crew aware of their existence. The pirate captain Two-Tongue, a towering dragonborn with a large hammer and a snack bag full of rats, decided to let the group live and offered them only the crippled ship they were on as means of travel.\n\nAfter some debate, the group agreed to travel south of the empire\'s control, toward Freeman\'s Republic. The ship was partially repaired with the few materials left by Two-Tongue\'s crew, and was able to navigate the group just north of a river that bisects a large jungle between Hamburg and Freeman\'s Republic.\n\nWe fast forwarded a few nights to when the party discovered that they were being watched by a strange tribe of halflings. These halflings spoke a language they did not understand, were dressed in primitive clothes, and had paint and scares all over their bodies. They offered a coconut-like fruit to the group, which had not had a proper meal in a few days.\n\nThe party followed the halflings back to their tiny village where they were welcomed warmly. After taking some time to look around, it was discovered that the village had captured an unnaturally enlarged and zombified elf, which was being restrained against a large rock by illuminated shackles. What in the ever-loving fuck could that be about?? Found out next time!',
+          icon: 'mdi-sail-boat-sink',
+          avatar: 'session1.jpg'
+        },
+        {
+          color: 'green',
+          year: 'September 30, 2024',
+          headline: 'Session 2?',
+          text: 'Make-up session? Let me know if you can/can\'t make it.',
+          icon: 'mdi-dice-d20'
+        },
+        {
+          color: 'orange',
+          year: 'October 7, 2024',
+          headline: 'Session 2? 3?',
+          text: 'Our next scheduled session. You\'re in a camp with halflings who only speak Mandarin Chinese. They are very nice, but they are also holding a giant elf zombie captive.',
           icon: 'mdi-dice-d20'
         },
       ].reverse(),
