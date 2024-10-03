@@ -496,7 +496,7 @@
           text: '"Beware of the shadows! Especially you heHEH!"',
           info: 'Moss attempted to both save the man\'s life, and perform a burial-at-sea ritual, which Tem stopped after seeing/feeling a shadow leave the man\'s body after death.',
           tags: ['Human', 'Empire\'s Thorn', 'Western Ocean'],
-          icon: 'mdi-account-outline',
+          icon: 'mdi-human-cane',
           type: 'character',
           subtype: 'npc',
           order: 565
@@ -528,6 +528,20 @@
           subtype: 'npc',
           order: 580
         },
+        {
+          title: 'Professor Sephfine Roserelle',
+          subtitle: 'Half-Elf, Bard',
+          avatar: 'rose.jpg',
+          thumb: '../thumbs/rose.jpg',
+          text: 'Professor Rose is a historian/anthropologist who teaches at Freeman\'s Academy of Fine Arts in Clifftonburgh. She met the party after they rescued her from a cave that had been overcome by shadow monsters.',
+          info: 'Professor Rose is a strong woman who is more than capable of taking care of herself. She is just under 6 feet tall. Her hair is a mess of tight curls that is usually tucked under her safari cap. She wears a traditional safari outfit, each piece of clothing she wears and each item in her pack has its practical purpose and has been carefully chosen, considering its weight and usefulness. She carries a single journal with her that is wrapped in several layers of cured leather to keep it safe from the elements. She is a fastidious note taker, and has a keen eye for even the smallest of details. The scimitar at her side is well worn, and has clearly seen its fair share of battle.\n\nWhen the party found her, she was on a retreat into the jungles of southern Hamburg where she was studying the culture of the Halfling Refugee Tribe. In particular, she was interested in how their language and customs had evolved so rapidly.\n\nThe university where she teaches funds her expeditions, and she has written several books about various societies of Arcis. Titles include:\n  - The Tabaxi of Modern Ikephi\n  - Farreach: Closer Than Ever\n  - An Orchestra of Orcs, How Fine Arts Helped Shape the Violent Abyss of Orcland',
+          tags: ['Professor', 'Anthropology', 'College of Lore'],
+          associations: ['Freeman\'s Republic', 'Clifftonburgh'],
+          icon: 'mdi-human-male-board',
+          type: 'character',
+          subtype: 'npc',
+          order: 590
+        }
       ].sort(function(a, b){return b.order - a.order})
     }),
     methods: {

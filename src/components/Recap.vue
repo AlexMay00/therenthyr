@@ -56,17 +56,18 @@
           avatar: 'session1.jpg'
         },
         {
-          color: 'green',
+          color: 'green-lighten-2',
           year: 'September 30, 2024',
-          headline: 'Session 2?',
-          text: 'Make-up session? Let me know if you can/can\'t make it.',
-          icon: 'mdi-dice-d20'
+          headline: 'Session 2',
+          text: 'The party investigated the strangely enlarged & zombified elf, which was chained to an altar with shackles illuminated by a bright yellow light. There was a finely carved and polished wooden dagger at the foot of the altar, which the halflings encouraged the party to use to stab the elf. After several stabs the dagger began to glow. Eudora decided to drip a drop of her blood onto the dagger, which caused it to fully illuminate as it became enriched with radiant energy. The tribe celebrated and danced around the group.\n\nAt this point, the group slapped their thighs and said "WELP!" - but just before they left, one of the halflings from the tribe came sprinting toward them from the woods. Exhausted and beaten, he frantically gestured for help and spoke of a "Professor Rose" very clearly, as the Common language pierced through their strange dialect.\n\nThe party followed the halfling warriors through the jungle, jumping over other dead elf zombies and some unconscious halflings as they raced toward a rocky formation/cave. There, a giant shadow was enveloping a half-elf woman, keeping her in a trance-like state. Six smaller shadows broke off from the larger, and began to attack the group. After several rounds, Professor Rose was taken control of by the giant shadow and began to attack the group. After beating her nearly unconscious, the giant shadow was dispatched and Rose came-to.\n\nProfessor Rose introduced herself to the group, and answered their many questions. She explained that the halfling worship a deity they call The Dayman, who she believes is likely Corellon, an elven god often associated with light. She told the group that she was a historian and anthropologist, and is working on a book about the tribe of halflings. She was intending to return to Clifftonburgh in Freeman\'s Republic shortly, and agreed that traveling there together would be beneficial to everyone.',
+          icon: 'mdi-knife-military',
+          avatar: 'halfling.jpg'
         },
         {
           color: 'orange',
-          year: 'October 7, 2024',
-          headline: 'Session 2? 3?',
-          text: 'Our next scheduled session. You\'re in a camp with halflings who only speak Mandarin Chinese. They are very nice, but they are also holding a giant elf zombie captive.',
+          year: 'October 21, 2024',
+          headline: 'Session 3',
+          text: 'The group prepares for their trek through the jungles of Arcis, led by Professor Rose. A new city awaits them on the other side, while their wanted status across the rest of arcis weighs heavily upon them.',
           icon: 'mdi-dice-d20'
         },
       ].reverse(),
